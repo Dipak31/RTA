@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="soI-CL-mSC" userLabel="FilterHeaderView" customClass="FilterHeaderView" customModule="IIF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xy6-R0-719">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                    <color key="backgroundColor" red="0.96780937909999998" green="0.57921278480000005" blue="0.1146632358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvv-u4-f2n">
+                    <rect key="frame" x="10" y="0.0" width="580" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="TY0-lP-vBh">
+                    <rect key="frame" x="575" y="18" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="hdN-lI-pzT"/>
+                        <constraint firstAttribute="width" constant="15" id="rjz-os-RNa"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lvv-u4-f2n" secondAttribute="trailing" constant="10" id="738-fj-lwH"/>
+                <constraint firstItem="lvv-u4-f2n" firstAttribute="leading" secondItem="soI-CL-mSC" secondAttribute="leading" constant="10" id="8vk-HC-J8w"/>
+                <constraint firstAttribute="bottom" secondItem="xy6-R0-719" secondAttribute="bottom" id="Bhq-xV-Mva"/>
+                <constraint firstItem="xy6-R0-719" firstAttribute="top" secondItem="soI-CL-mSC" secondAttribute="top" id="F0a-cq-4pA"/>
+                <constraint firstItem="TY0-lP-vBh" firstAttribute="centerY" secondItem="soI-CL-mSC" secondAttribute="centerY" id="I9z-YG-9k4"/>
+                <constraint firstAttribute="trailing" secondItem="xy6-R0-719" secondAttribute="trailing" id="Jnq-Nk-Sx1"/>
+                <constraint firstItem="xy6-R0-719" firstAttribute="leading" secondItem="soI-CL-mSC" secondAttribute="leading" id="PcA-KT-Lfm"/>
+                <constraint firstAttribute="trailing" secondItem="TY0-lP-vBh" secondAttribute="trailing" constant="10" id="T6o-hU-x0u"/>
+                <constraint firstItem="lvv-u4-f2n" firstAttribute="top" secondItem="soI-CL-mSC" secondAttribute="top" id="Xtb-IY-fIB"/>
+                <constraint firstAttribute="bottom" secondItem="lvv-u4-f2n" secondAttribute="bottom" id="tSc-Zv-mDB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowImgview" destination="TY0-lP-vBh" id="EK5-nz-put"/>
+                <outlet property="background" destination="xy6-R0-719" id="Zqz-nD-1cw"/>
+                <outlet property="lblTitle" destination="lvv-u4-f2n" id="1Nn-9t-S35"/>
+            </connections>
+            <point key="canvasLocation" x="461" y="368"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="down-arrow" width="22" height="22"/>
+    </resources>
+</document>
