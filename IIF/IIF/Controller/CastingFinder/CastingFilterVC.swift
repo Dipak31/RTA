@@ -183,7 +183,7 @@ class CastingFilterVC: UIViewController{
             let isMetalChildSelected = metalCasting[0].child.filter({$0.isSelected == true});
             
             if isMetalChildSelected.count <= 0{
-                AlertUtil.showCustomAlertWithMessage("Please Select \(Constants.METAL_IDENTIFIER)");
+                AlertUtil.showCustomAlertWithMessage("Please Select Metal Cast");
                 return;
             }
         }else{

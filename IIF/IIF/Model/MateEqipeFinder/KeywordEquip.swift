@@ -10,15 +10,15 @@ import UIKit
 
 class KeywordEquip: NSObject {
 
-    var id:String? = nil;
-    var name:String? = nil;
+    var id:String? = "";
+    var name:String? = "";
     
     convenience public init(object: Any) {
         self.init(json: JSON(object))
     }
     
     public init(json: JSON) {
-        id = json["Kwd_Id"].string;
-        name = json["Kwd_Name"].string;
+        id = json["Id"].string;
+        name = json["Value"].string;
     }
 }

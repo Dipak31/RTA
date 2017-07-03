@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -558,7 +558,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                     <rect key="frame" x="5" y="15" width="15" height="15"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAh-t5-nfY">
-                                                    <rect key="frame" x="25" y="16.5" width="7" height="14"/>
+                                                    <rect key="frame" x="25" y="17.5" width="8.5" height="12"/>
                                                     <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1379,7 +1379,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4N-QK-SdJ">
-                                        <rect key="frame" x="265" y="25" width="55" height="56"/>
+                                        <rect key="frame" x="265" y="15" width="55" height="56"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="Lkh-7I-xue"/>
                                             <constraint firstAttribute="width" constant="55" id="qFZ-UU-u7Y"/>
@@ -1394,7 +1394,7 @@ OF INDIAN FOUNDRYMEN</string>
                                     <constraint firstItem="aDJ-U8-HAw" firstAttribute="leading" secondItem="whY-I8-HLk" secondAttribute="leading" id="IVW-7i-i7v"/>
                                     <constraint firstItem="aDJ-U8-HAw" firstAttribute="top" secondItem="whY-I8-HLk" secondAttribute="top" id="WDX-fy-9no"/>
                                     <constraint firstAttribute="trailing" secondItem="k4N-QK-SdJ" secondAttribute="trailing" id="d52-h2-M9i"/>
-                                    <constraint firstItem="k4N-QK-SdJ" firstAttribute="top" secondItem="whY-I8-HLk" secondAttribute="top" constant="25" id="k9T-ur-hQG"/>
+                                    <constraint firstItem="k4N-QK-SdJ" firstAttribute="top" secondItem="whY-I8-HLk" secondAttribute="top" constant="15" id="k9T-ur-hQG"/>
                                     <constraint firstAttribute="height" constant="100" id="laO-sv-HAx"/>
                                     <constraint firstAttribute="bottom" secondItem="aDJ-U8-HAw" secondAttribute="bottom" id="msi-2n-5g4"/>
                                     <constraint firstAttribute="trailing" secondItem="aDJ-U8-HAw" secondAttribute="trailing" id="pwq-zF-Krh"/>
@@ -1533,15 +1533,15 @@ OF INDIAN FOUNDRYMEN</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p51-iJ-ypk" userLabel="ViewHeader">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="casting_finder_header_new" translatesAutoresizingMaskIntoConstraints="NO" id="f6Z-8e-S8J">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="casting_finder_header_new" translatesAutoresizingMaskIntoConstraints="NO" id="f6Z-8e-S8J">
                                         <rect key="frame" x="0.0" y="-4" width="320" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWP-w1-40o">
-                                        <rect key="frame" x="252" y="25" width="68" height="45"/>
+                                        <rect key="frame" x="252" y="14" width="68" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="68" id="5zu-hu-HpH"/>
-                                            <constraint firstAttribute="height" constant="45" id="ZIZ-D5-CvZ"/>
+                                            <constraint firstAttribute="height" constant="64" id="ZIZ-D5-CvZ"/>
                                         </constraints>
                                         <connections>
                                             <action selector="actionBack:" destination="3IF-fR-Kh2" eventType="touchUpInside" id="QFc-0A-pmQ"/>
@@ -1552,7 +1552,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="92" id="3eY-oj-rrM"/>
-                                    <constraint firstItem="mWP-w1-40o" firstAttribute="top" secondItem="p51-iJ-ypk" secondAttribute="top" constant="25" id="R37-WZ-8Fg"/>
+                                    <constraint firstItem="mWP-w1-40o" firstAttribute="top" secondItem="p51-iJ-ypk" secondAttribute="top" constant="14" id="R37-WZ-8Fg"/>
                                     <constraint firstAttribute="trailing" secondItem="mWP-w1-40o" secondAttribute="trailing" id="VPq-n6-uWI"/>
                                 </constraints>
                             </view>
@@ -2164,11 +2164,11 @@ OF INDIAN FOUNDRYMEN</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dyO-6f-xUa" userLabel="ViewHeader">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mat_quip_header" translatesAutoresizingMaskIntoConstraints="NO" id="MSU-DA-g5o">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mat_quip_header" translatesAutoresizingMaskIntoConstraints="NO" id="MSU-DA-g5o">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23H-jk-xvn">
-                                        <rect key="frame" x="247" y="21" width="55" height="54"/>
+                                        <rect key="frame" x="262" y="16" width="55" height="54"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="55" id="scz-uR-zCB"/>
                                             <constraint firstAttribute="height" constant="54" id="tVT-dC-DC8"/>
@@ -2181,12 +2181,12 @@ OF INDIAN FOUNDRYMEN</string>
                                 <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="MSU-DA-g5o" secondAttribute="bottom" id="1pN-UL-pAe"/>
-                                    <constraint firstItem="23H-jk-xvn" firstAttribute="top" secondItem="dyO-6f-xUa" secondAttribute="top" constant="21" id="3Nx-8O-di9"/>
+                                    <constraint firstItem="23H-jk-xvn" firstAttribute="top" secondItem="dyO-6f-xUa" secondAttribute="top" constant="16" id="3Nx-8O-di9"/>
                                     <constraint firstAttribute="trailing" secondItem="MSU-DA-g5o" secondAttribute="trailing" id="3Ru-6B-tGF"/>
                                     <constraint firstItem="MSU-DA-g5o" firstAttribute="top" secondItem="dyO-6f-xUa" secondAttribute="top" id="AOL-lR-VkJ"/>
                                     <constraint firstItem="MSU-DA-g5o" firstAttribute="leading" secondItem="dyO-6f-xUa" secondAttribute="leading" id="EKQ-XX-2Pd"/>
                                     <constraint firstAttribute="height" constant="92" id="KV4-vS-ZAW"/>
-                                    <constraint firstAttribute="trailing" secondItem="23H-jk-xvn" secondAttribute="trailing" constant="18" id="tZ8-Qp-LRV"/>
+                                    <constraint firstAttribute="trailing" secondItem="23H-jk-xvn" secondAttribute="trailing" constant="3" id="tZ8-Qp-LRV"/>
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZh-pL-1pN" userLabel="Label Sapretor">
@@ -2228,29 +2228,10 @@ OF INDIAN FOUNDRYMEN</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXd-EP-k00" userLabel="View Search">
                                 <rect key="frame" x="0.0" y="134" width="320" height="50"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUr-Mg-HXz" userLabel="Label sapretor">
-                                        <rect key="frame" x="41" y="10" width="1" height="30"/>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="1" id="VZ3-nI-wri"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oho-Wr-jTh">
+                                        <rect key="frame" x="10" y="10" width="216" height="30"/>
                                         <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjK-pG-08H">
-                                        <rect key="frame" x="46" y="15" width="50" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="OKe-u0-Qe5"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oho-Wr-jTh">
-                                        <rect key="frame" x="104" y="10" width="162" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
                                             <outlet property="delegate" destination="yHx-hg-OQA" id="9y3-Nb-ErQ"/>
@@ -2276,16 +2257,6 @@ OF INDIAN FOUNDRYMEN</string>
                                             <action selector="btnSearchPressed:" destination="yHx-hg-OQA" eventType="touchUpInside" id="q5I-cb-9xl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuD-zq-iTi" userLabel="Button Search">
-                                        <rect key="frame" x="8" y="12" width="26" height="26"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="26" id="bSe-WB-Jro"/>
-                                        </constraints>
-                                        <state key="normal" image="icon_back"/>
-                                        <connections>
-                                            <action selector="btnBackPressed:" destination="yHx-hg-OQA" eventType="touchUpInside" id="po9-4Y-iVW"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1N-BE-ZMa">
                                         <rect key="frame" x="280" y="10" width="32" height="32"/>
                                         <constraints>
@@ -2297,30 +2268,34 @@ OF INDIAN FOUNDRYMEN</string>
                                             <action selector="actionExportCSV:" destination="yHx-hg-OQA" eventType="touchUpInside" id="oDW-oW-b3C"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I69-QD-dTD">
+                                        <rect key="frame" x="234" y="10" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="32" id="GdV-Jx-Kis"/>
+                                            <constraint firstAttribute="height" constant="32" id="Ryr-gD-PgQ"/>
+                                        </constraints>
+                                        <state key="normal" image="filter"/>
+                                        <connections>
+                                            <action selector="actionFilter:" destination="yHx-hg-OQA" eventType="touchUpInside" id="iYy-wg-qYL"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="MuD-zq-iTi" secondAttribute="bottom" constant="12" id="1lT-cN-4hG"/>
                                     <constraint firstAttribute="height" constant="50" id="2i1-xe-LS7"/>
                                     <constraint firstItem="Ik7-Yr-Me4" firstAttribute="top" secondItem="nXd-EP-k00" secondAttribute="top" constant="10" id="3bL-N3-AlR"/>
-                                    <constraint firstItem="kjK-pG-08H" firstAttribute="top" secondItem="nXd-EP-k00" secondAttribute="top" constant="15" id="6qY-jn-6pL"/>
+                                    <constraint firstItem="I69-QD-dTD" firstAttribute="centerY" secondItem="L1N-BE-ZMa" secondAttribute="centerY" id="9T8-Iw-ZTH"/>
                                     <constraint firstAttribute="bottom" secondItem="gp6-Ha-Hmm" secondAttribute="bottom" constant="12" id="ANk-r6-zdp"/>
-                                    <constraint firstItem="kjK-pG-08H" firstAttribute="leading" secondItem="cUr-Mg-HXz" secondAttribute="trailing" constant="4" id="Amf-hL-JTM"/>
                                     <constraint firstAttribute="bottom" secondItem="Ik7-Yr-Me4" secondAttribute="bottom" constant="10" id="Dva-PN-eBu"/>
                                     <constraint firstItem="L1N-BE-ZMa" firstAttribute="top" secondItem="nXd-EP-k00" secondAttribute="top" constant="10" id="FT7-uE-1aL"/>
-                                    <constraint firstAttribute="bottom" secondItem="cUr-Mg-HXz" secondAttribute="bottom" constant="10" id="G8d-UV-AYh"/>
-                                    <constraint firstItem="MuD-zq-iTi" firstAttribute="top" secondItem="nXd-EP-k00" secondAttribute="top" constant="12" id="LMd-dg-y6C"/>
+                                    <constraint firstItem="Ik7-Yr-Me4" firstAttribute="leading" secondItem="I69-QD-dTD" secondAttribute="trailing" constant="8" id="HNT-fN-Y0K"/>
+                                    <constraint firstItem="Oho-Wr-jTh" firstAttribute="leading" secondItem="nXd-EP-k00" secondAttribute="leading" constant="10" id="L1r-NM-Skr"/>
                                     <constraint firstItem="Oho-Wr-jTh" firstAttribute="top" secondItem="nXd-EP-k00" secondAttribute="top" constant="10" id="UFw-qz-zn4"/>
-                                    <constraint firstAttribute="bottom" secondItem="kjK-pG-08H" secondAttribute="bottom" constant="14" id="ZMB-H5-8g3"/>
                                     <constraint firstItem="gp6-Ha-Hmm" firstAttribute="top" secondItem="nXd-EP-k00" secondAttribute="top" constant="12" id="ZPC-gX-RNi"/>
-                                    <constraint firstItem="MuD-zq-iTi" firstAttribute="leading" secondItem="nXd-EP-k00" secondAttribute="leading" constant="8" id="fKF-qw-u4C"/>
-                                    <constraint firstItem="Ik7-Yr-Me4" firstAttribute="leading" secondItem="Oho-Wr-jTh" secondAttribute="trailing" constant="8" id="h4C-Ym-Y8s"/>
+                                    <constraint firstItem="Ik7-Yr-Me4" firstAttribute="leading" secondItem="Oho-Wr-jTh" secondAttribute="trailing" constant="48" id="h4C-Ym-Y8s"/>
                                     <constraint firstItem="gp6-Ha-Hmm" firstAttribute="leading" secondItem="Ik7-Yr-Me4" secondAttribute="trailing" constant="9" id="hKU-7l-HxQ"/>
-                                    <constraint firstItem="cUr-Mg-HXz" firstAttribute="leading" secondItem="MuD-zq-iTi" secondAttribute="trailing" constant="7" id="nTG-fO-gVz"/>
-                                    <constraint firstItem="Oho-Wr-jTh" firstAttribute="leading" secondItem="kjK-pG-08H" secondAttribute="trailing" constant="8" id="oxs-Fc-n1f"/>
                                     <constraint firstAttribute="trailing" secondItem="gp6-Ha-Hmm" secondAttribute="trailing" constant="8" id="pKQ-GQ-7sF"/>
                                     <constraint firstAttribute="trailing" secondItem="L1N-BE-ZMa" secondAttribute="trailing" constant="8" id="pyf-Y2-CV9"/>
-                                    <constraint firstItem="cUr-Mg-HXz" firstAttribute="top" secondItem="nXd-EP-k00" secondAttribute="top" constant="10" id="slV-WO-aba"/>
                                 </constraints>
                             </view>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F2D-uo-WG7">
@@ -2798,6 +2773,117 @@ OF INDIAN FOUNDRYMEN</string>
             </objects>
             <point key="canvasLocation" x="2274.375" y="726.25"/>
         </scene>
+        <!--Keyword Search View Controller-->
+        <scene sceneID="QIe-2x-dJN">
+            <objects>
+                <viewController storyboardIdentifier="KeywordSearchViewController" id="c5m-Pn-gNW" customClass="KeywordSearchViewController" customModule="IIF" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DJJ-0B-sie"/>
+                        <viewControllerLayoutGuide type="bottom" id="yuy-yM-oW4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iWQ-Gw-U5e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmX-dB-5lM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcV-x3-FdR" userLabel="PopUP">
+                                <rect key="frame" x="10" y="20" width="300" height="440"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1H-no-KIu">
+                                        <rect key="frame" x="10" y="15" width="280" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="EiL-zI-dRA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="20"/>
+                                        <color key="textColor" red="0.96780937909999998" green="0.57921278480000005" blue="0.1146632358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search Keyword" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q5U-tV-x3d">
+                                        <rect key="frame" x="12" y="44" width="276" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Teo-ay-2Or"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="c5m-Pn-gNW" id="yEe-fG-HFy"/>
+                                        </connections>
+                                    </textField>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iXK-cn-DGq" userLabel="Table View Search">
+                                        <rect key="frame" x="0.0" y="82" width="300" height="300"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="searchEquipKeywordCell" id="bxw-I8-Er6">
+                                                <rect key="frame" x="0.0" y="28" width="300" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bxw-I8-Er6" id="gCc-FM-E6O">
+                                                    <rect key="frame" x="0.0" y="0.0" width="267" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="c5m-Pn-gNW" id="26X-sa-3LI"/>
+                                            <outlet property="delegate" destination="c5m-Pn-gNW" id="Nue-TL-v9d"/>
+                                        </connections>
+                                    </tableView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6b-KW-ARy">
+                                        <rect key="frame" x="83" y="392" width="135" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="135" id="Ics-lW-jIV"/>
+                                            <constraint firstAttribute="height" constant="40" id="kpl-NN-hNe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="16"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" red="0.96073061230000001" green="0.51222187279999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="actionDismiss:" destination="c5m-Pn-gNW" eventType="touchUpInside" id="zK0-kc-K0l"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="iXK-cn-DGq" firstAttribute="top" secondItem="q5U-tV-x3d" secondAttribute="bottom" constant="8" id="9UH-bh-es8"/>
+                                    <constraint firstItem="q5U-tV-x3d" firstAttribute="leading" secondItem="NcV-x3-FdR" secondAttribute="leading" constant="12" id="AZe-jd-F8R"/>
+                                    <constraint firstItem="r1H-no-KIu" firstAttribute="top" secondItem="NcV-x3-FdR" secondAttribute="top" constant="15" id="DML-LX-YCB"/>
+                                    <constraint firstItem="iXK-cn-DGq" firstAttribute="leading" secondItem="NcV-x3-FdR" secondAttribute="leading" id="JKU-56-QfM"/>
+                                    <constraint firstItem="q5U-tV-x3d" firstAttribute="top" secondItem="r1H-no-KIu" secondAttribute="bottom" constant="8" id="QQg-MY-nXs"/>
+                                    <constraint firstAttribute="trailing" secondItem="iXK-cn-DGq" secondAttribute="trailing" id="Tjb-DQ-wxv"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q6b-KW-ARy" secondAttribute="bottom" constant="8" id="XiO-b7-XLw"/>
+                                    <constraint firstAttribute="trailing" secondItem="r1H-no-KIu" secondAttribute="trailing" constant="10" id="gx0-zy-Z2z"/>
+                                    <constraint firstItem="r1H-no-KIu" firstAttribute="leading" secondItem="NcV-x3-FdR" secondAttribute="leading" constant="10" id="hOj-5b-v30"/>
+                                    <constraint firstAttribute="bottom" secondItem="iXK-cn-DGq" secondAttribute="bottom" constant="58" id="lBV-IE-z7n"/>
+                                    <constraint firstAttribute="trailing" secondItem="q5U-tV-x3d" secondAttribute="trailing" constant="12" id="rT2-RE-BLe"/>
+                                    <constraint firstItem="Q6b-KW-ARy" firstAttribute="centerX" secondItem="NcV-x3-FdR" secondAttribute="centerX" id="yVg-h6-ZHl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.51404644690000001" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DmX-dB-5lM" secondAttribute="trailing" id="0kB-he-3kD"/>
+                            <constraint firstItem="DmX-dB-5lM" firstAttribute="top" secondItem="iWQ-Gw-U5e" secondAttribute="top" id="2RT-AC-Gym"/>
+                            <constraint firstItem="NcV-x3-FdR" firstAttribute="leading" secondItem="iWQ-Gw-U5e" secondAttribute="leading" constant="10" id="JDu-Eg-DCP"/>
+                            <constraint firstItem="NcV-x3-FdR" firstAttribute="top" secondItem="DJJ-0B-sie" secondAttribute="bottom" id="K3k-IZ-qsm"/>
+                            <constraint firstItem="yuy-yM-oW4" firstAttribute="top" secondItem="DmX-dB-5lM" secondAttribute="bottom" id="LJ3-7M-bM5"/>
+                            <constraint firstItem="DmX-dB-5lM" firstAttribute="leading" secondItem="iWQ-Gw-U5e" secondAttribute="leading" id="OnH-m4-q4o"/>
+                            <constraint firstAttribute="trailing" secondItem="NcV-x3-FdR" secondAttribute="trailing" constant="10" id="SEi-FX-BWR"/>
+                            <constraint firstItem="yuy-yM-oW4" firstAttribute="top" secondItem="NcV-x3-FdR" secondAttribute="bottom" constant="20" id="zr6-UH-o33"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableVIew" destination="iXK-cn-DGq" id="pZm-uF-9Rz"/>
+                        <outlet property="txtSearch" destination="q5U-tV-x3d" id="hAZ-2u-FRD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="snh-8o-2sz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2955" y="725"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background_img" width="1000" height="1779"/>
@@ -2807,6 +2893,7 @@ OF INDIAN FOUNDRYMEN</string>
         <image name="casting_finder_header_new" width="639" height="200"/>
         <image name="favorite-yellow" width="15" height="15"/>
         <image name="file" width="32" height="32"/>
+        <image name="filter" width="32" height="32"/>
         <image name="foundary_tech_header" width="639" height="200"/>
         <image name="icon_back" width="64" height="64"/>
         <image name="icon_back_white" width="32" height="32"/>

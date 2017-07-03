@@ -64,6 +64,7 @@ class MatEquipFinderVC: UIViewController,UITextFieldDelegate {
         
         txtSearch.addTarget(self, action: #selector(actionText), for:.editingChanged);
         txtSearch.addTarget(self, action: #selector(actionFoucusOnText), for:.editingDidBegin);
+        showSearchKeyword(isAnimate:false);
         
         //tutorial screen
         if !AppLifeState.getCastingFinderSplash()!{
@@ -82,7 +83,7 @@ class MatEquipFinderVC: UIViewController,UITextFieldDelegate {
             
             isFirstAppear = false;
            // SVProgressHUD.show();
-            keywordEquipService.send();
+           // keywordEquipService.send();
             
         }
     }
@@ -111,19 +112,31 @@ class MatEquipFinderVC: UIViewController,UITextFieldDelegate {
         navVc.navigationBar.isHidden = true;
         APP_DELEGATE?.rootViewController().present(navVc, animated: false, completion: nil);
     }
+    @IBAction func actionFilter(_ sender: Any) {
+        showSearchKeyword(isAnimate:true);
+
+    }
+    func showSearchKeyword(isAnimate:Bool){
+        let storyBoard = StoryBoard.MAIN.Instance();
+        let vc = storyBoard.instantiateViewController(withIdentifier: String(describing:KeywordSearchViewController.self)) as!  KeywordSearchViewController
+        vc.actionSearchKeyword = { (_ keyword:KeywordEquip) in
+            self.currentKeyWord = keyword;
+            SVProgressHUD.show();
+            self.refreshTechPapers();
+           
+        }
+        let navVc = UINavigationController(rootViewController: vc);
+        navVc.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
+        navVc.modalTransitionStyle = UIModalTransitionStyle.coverVertical;
+        navVc.navigationBar.isHidden = true;
+        APP_DELEGATE?.rootViewController().present(navVc, animated: isAnimate, completion: nil);
+    }
     // MARK: - FUNCTION
     func refreshPull(){
         
         if NetworkReachability.isConnectedToNetwork(){
+            refreshTechPapers();
             
-            if techPaperTblView.isHidden{
-                searchRefreshControl?.beginRefreshing();
-                keywordEquipService.send();
-            }else{
-                currentKeyWord = nil
-                refreshControl?.beginRefreshing();
-                refreshTechPapers();
-            }
         }else{
             refreshControl?.endRefreshing();
             searchRefreshControl?.beginRefreshing();

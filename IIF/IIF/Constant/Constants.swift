@@ -19,10 +19,9 @@ struct ScreenSize
 open class StoryBoard {
     open static let MAIN:String = "Main";
     open static let COMMON_STORY_BOARD:String = "Common";
-
 }
+
 open class StoryBoardID {
-    
     open static let FOUNDRY_TECHMATE:String = String(describing:FoundryTechMateVC.self);
     open static let CASTING_FILTER_VC:String = String(describing:CastingFilterVC.self);
     open static let MAT_EQUIP_VC:String     = String(describing:MatEquipFinderVC.self);
@@ -35,7 +34,7 @@ open class Constants {
     open static let BORDER_WIDTH:CGFloat = 1;
     open static let NOTIFICATION_CATEGORY:String = "RoemaingSE";
     open static let ADD_NEW_ACTIVITY_NOTIFICATION:String = "activityAddNotification";
-    open static let METAL_IDENTIFIER = "Metal Cast";
+    open static let METAL_IDENTIFIER = "Metal Cast (Mandatory)";
     
     open static let IIF_FOUNDRY_TECH_MATE_TITLE = "Foundray Tech Mate"
     open static let IIF_FOUNDRY_TECH_MATE_SUBTIT = "Mate"
