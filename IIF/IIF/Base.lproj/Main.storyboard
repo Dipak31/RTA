@@ -558,7 +558,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                     <rect key="frame" x="5" y="15" width="15" height="15"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAh-t5-nfY">
-                                                    <rect key="frame" x="25" y="17.5" width="8.5" height="12"/>
+                                                    <rect key="frame" x="25" y="16.5" width="7" height="14"/>
                                                     <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -876,7 +876,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pub Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hCA-uH-uTd">
-                                                            <rect key="frame" x="8" y="55" width="71" height="21"/>
+                                                            <rect key="frame" x="8" y="55" width="74.5" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="mdI-o2-HtD"/>
                                                             </constraints>
@@ -894,7 +894,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Publish On:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSw-B5-ix9">
-                                                            <rect key="frame" x="8" y="84" width="78" height="21"/>
+                                                            <rect key="frame" x="8" y="84" width="79" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="4LX-6I-O4g"/>
                                                             </constraints>
@@ -903,7 +903,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mnth - 0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWS-Fu-uhE">
-                                                            <rect key="frame" x="8" y="105" width="82" height="21"/>
+                                                            <rect key="frame" x="8" y="105" width="90" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="kCQ-ct-hyi"/>
                                                             </constraints>
@@ -1278,7 +1278,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you like the App,Can you please take a few minutes to rate it?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vj0-OF-XJG">
-                                        <rect key="frame" x="10" y="56" width="280" height="30.5"/>
+                                        <rect key="frame" x="10" y="56" width="280" height="26"/>
                                         <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="13"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1699,7 +1699,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQd-1U-bsx">
-                                                            <rect key="frame" x="8" y="37" width="26.5" height="21"/>
+                                                            <rect key="frame" x="8" y="37" width="27.5" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="KLi-OX-JOQ"/>
                                                             </constraints>
@@ -1708,7 +1708,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ux-Sa-UoT">
-                                                            <rect key="frame" x="39.5" y="37" width="0.0" height="21"/>
+                                                            <rect key="frame" x="40.5" y="37" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="GAt-Nd-x0t"/>
                                                             </constraints>
@@ -1716,7 +1716,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbf-BD-Lmw">
-                                                            <rect key="frame" x="8" y="58" width="34.5" height="21"/>
+                                                            <rect key="frame" x="8" y="58" width="37.5" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="1tj-Hu-3Xg"/>
                                                             </constraints>
@@ -1725,7 +1725,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkc-IB-2M9">
-                                                            <rect key="frame" x="47.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="48.5" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="NvK-QV-pHr"/>
                                                             </constraints>
@@ -1733,7 +1733,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Region:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPg-2Z-hDV">
-                                                            <rect key="frame" x="65.5" y="58" width="45" height="21"/>
+                                                            <rect key="frame" x="66.5" y="58" width="45" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="45" id="Sre-Xc-VyB"/>
                                                                 <constraint firstAttribute="height" constant="21" id="bat-Dr-aSQ"/>
@@ -1743,7 +1743,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLZ-wP-NqH">
-                                                            <rect key="frame" x="115.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="116.5" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="8EH-S9-jAl"/>
                                                             </constraints>
@@ -2331,186 +2331,8 @@ OF INDIAN FOUNDRYMEN</string>
                                 <rect key="frame" x="0.0" y="184" width="320" height="246"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="115" id="Cja-Hh-8OX">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="115"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cja-Hh-8OX" id="S6X-XI-7zf">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJI-bK-mWC">
-                                                    <rect key="frame" x="5" y="5" width="310" height="108"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chx-Eb-qQm">
-                                                            <rect key="frame" x="8" y="8" width="294" height="21"/>
-                                                            <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="15"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Region:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkL-qe-AwN">
-                                                            <rect key="frame" x="8" y="34" width="54" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="21" id="70s-eO-WFZ"/>
-                                                                <constraint firstAttribute="width" constant="54" id="Sge-Px-e7a"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="15"/>
-                                                            <color key="textColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ryS-0L-XPQ">
-                                                            <rect key="frame" x="70" y="34" width="0.0" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="21" id="GWx-j2-UlT"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5R-9e-CE6">
-                                                            <rect key="frame" x="90" y="34" width="32" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="32" id="QTZ-A0-Haa"/>
-                                                                <constraint firstAttribute="height" constant="21" id="gai-OU-GZU"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="15"/>
-                                                            <color key="textColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ska-Lf-dRz">
-                                                            <rect key="frame" x="130" y="34" width="0.0" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="21" id="OHs-cT-Alx"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9W-lL-dQm">
-                                                            <rect key="frame" x="8" y="57" width="42" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="21" id="ByL-tP-2fy"/>
-                                                                <constraint firstAttribute="width" constant="42" id="FeX-Sd-jEb"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="15"/>
-                                                            <color key="textColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXg-zV-uaU">
-                                                            <rect key="frame" x="58" y="57" width="0.0" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="21" id="Z7F-Vp-zVX"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capacity:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvP-3h-Xlk">
-                                                            <rect key="frame" x="8" y="80" width="70" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="70" id="FEF-3C-Hbx"/>
-                                                                <constraint firstAttribute="height" constant="21" id="b32-3v-2aL"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="15"/>
-                                                            <color key="textColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCb-hu-lPz" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="164" y="73" width="65" height="30"/>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="65" id="6k0-qc-YKl"/>
-                                                                <constraint firstAttribute="height" constant="30" id="sTo-it-xpu"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="12"/>
-                                                            <state key="normal" title="VIEW">
-                                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                            </state>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="5"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                        </button>
-                                                        <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4r-3g-gRn" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="237" y="73" width="65" height="30"/>
-                                                            <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="30" id="Q4w-eq-WQd"/>
-                                                                <constraint firstAttribute="width" constant="65" id="tkT-VR-GQI"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="12"/>
-                                                            <state key="normal" title="SHARE">
-                                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                            </state>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="5"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                        </button>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyF-eM-qYC">
-                                                            <rect key="frame" x="86" y="80" width="0.0" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="21" id="mTf-Kl-hWk"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="D4r-3g-gRn" secondAttribute="bottom" constant="5" id="1MY-Hv-MdS"/>
-                                                        <constraint firstItem="CyF-eM-qYC" firstAttribute="centerY" secondItem="mvP-3h-Xlk" secondAttribute="centerY" id="2y0-Bc-P5x"/>
-                                                        <constraint firstItem="D4r-3g-gRn" firstAttribute="leading" secondItem="qCb-hu-lPz" secondAttribute="trailing" constant="8" id="380-eO-spp"/>
-                                                        <constraint firstItem="dXg-zV-uaU" firstAttribute="leading" secondItem="O9W-lL-dQm" secondAttribute="trailing" constant="8" id="3ng-SC-EGW"/>
-                                                        <constraint firstItem="ryS-0L-XPQ" firstAttribute="centerY" secondItem="BkL-qe-AwN" secondAttribute="centerY" id="4gi-mz-Aug"/>
-                                                        <constraint firstItem="chx-Eb-qQm" firstAttribute="top" secondItem="BJI-bK-mWC" secondAttribute="top" constant="8" id="8bv-Ci-Ee3"/>
-                                                        <constraint firstAttribute="trailing" secondItem="chx-Eb-qQm" secondAttribute="trailing" constant="8" id="DMG-NQ-1V1"/>
-                                                        <constraint firstAttribute="trailing" secondItem="D4r-3g-gRn" secondAttribute="trailing" constant="8" id="FLM-PR-18I"/>
-                                                        <constraint firstItem="chx-Eb-qQm" firstAttribute="leading" secondItem="BJI-bK-mWC" secondAttribute="leading" constant="8" id="GZ7-WY-BHL"/>
-                                                        <constraint firstItem="BkL-qe-AwN" firstAttribute="leading" secondItem="BJI-bK-mWC" secondAttribute="leading" constant="8" id="NxY-2q-yYg"/>
-                                                        <constraint firstItem="dXg-zV-uaU" firstAttribute="centerY" secondItem="O9W-lL-dQm" secondAttribute="centerY" id="Uoh-hj-uE0"/>
-                                                        <constraint firstItem="ska-Lf-dRz" firstAttribute="leading" secondItem="Z5R-9e-CE6" secondAttribute="trailing" constant="8" id="VCr-H5-0JN"/>
-                                                        <constraint firstItem="ryS-0L-XPQ" firstAttribute="leading" secondItem="BkL-qe-AwN" secondAttribute="trailing" constant="8" id="g36-p2-11W"/>
-                                                        <constraint firstItem="O9W-lL-dQm" firstAttribute="leading" secondItem="BJI-bK-mWC" secondAttribute="leading" constant="8" id="jMj-Ac-IRz"/>
-                                                        <constraint firstAttribute="bottom" secondItem="qCb-hu-lPz" secondAttribute="bottom" constant="5" id="qJC-iI-gAG"/>
-                                                        <constraint firstAttribute="bottom" secondItem="mvP-3h-Xlk" secondAttribute="bottom" constant="7" id="qpi-Uf-AwZ"/>
-                                                        <constraint firstItem="Z5R-9e-CE6" firstAttribute="leading" secondItem="ryS-0L-XPQ" secondAttribute="trailing" constant="20" id="qya-hE-GBu"/>
-                                                        <constraint firstItem="BkL-qe-AwN" firstAttribute="top" secondItem="chx-Eb-qQm" secondAttribute="bottom" constant="5" id="un3-YR-dRz"/>
-                                                        <constraint firstItem="CyF-eM-qYC" firstAttribute="leading" secondItem="mvP-3h-Xlk" secondAttribute="trailing" constant="8" id="vLg-YC-h1b"/>
-                                                        <constraint firstItem="mvP-3h-Xlk" firstAttribute="leading" secondItem="BJI-bK-mWC" secondAttribute="leading" constant="8" id="vfD-iH-5cP"/>
-                                                        <constraint firstItem="mvP-3h-Xlk" firstAttribute="top" secondItem="O9W-lL-dQm" secondAttribute="bottom" constant="2" id="vhR-RJ-aYx"/>
-                                                        <constraint firstItem="O9W-lL-dQm" firstAttribute="top" secondItem="BkL-qe-AwN" secondAttribute="bottom" constant="2" id="vqI-iJ-uuA"/>
-                                                        <constraint firstItem="Z5R-9e-CE6" firstAttribute="top" secondItem="chx-Eb-qQm" secondAttribute="bottom" constant="5" id="wId-LQ-7gZ"/>
-                                                        <constraint firstItem="ska-Lf-dRz" firstAttribute="centerY" secondItem="Z5R-9e-CE6" secondAttribute="centerY" id="xEo-Hl-Hr3"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                            <integer key="value" value="5"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                            <real key="value" value="0.5"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </view>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="BJI-bK-mWC" secondAttribute="bottom" constant="2" id="FEB-PS-ZUR"/>
-                                                <constraint firstAttribute="trailing" secondItem="BJI-bK-mWC" secondAttribute="trailing" constant="5" id="TDG-cf-ldN"/>
-                                                <constraint firstItem="BJI-bK-mWC" firstAttribute="leading" secondItem="S6X-XI-7zf" secondAttribute="leading" constant="5" id="ZdD-HE-l79"/>
-                                                <constraint firstItem="BJI-bK-mWC" firstAttribute="top" secondItem="S6X-XI-7zf" secondAttribute="top" constant="5" id="yXW-PW-06n"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                        <connections>
-                                            <outlet property="btnShare" destination="D4r-3g-gRn" id="mvJ-lQ-vlU"/>
-                                            <outlet property="btnView" destination="qCb-hu-lPz" id="SoV-Au-Jbs"/>
-                                            <outlet property="lblCapacity" destination="CyF-eM-qYC" id="dpr-Nz-d1m"/>
-                                            <outlet property="lblCity" destination="ska-Lf-dRz" id="Cih-5X-GKE"/>
-                                            <outlet property="lblCompanyName" destination="chx-Eb-qQm" id="4mP-bf-x7o"/>
-                                            <outlet property="lblRegion" destination="ryS-0L-XPQ" id="rf0-wh-kbD"/>
-                                            <outlet property="lblYear" destination="dXg-zV-uaU" id="quj-zS-TN9"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatEquipmentCell" rowHeight="132" id="NG8-wa-JDV" customClass="MatEquipmentCell" customModule="IIF" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="143" width="320" height="132"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="132"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NG8-wa-JDV" id="bLW-nS-cPJ">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
@@ -2526,7 +2348,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhZ-5u-KTz">
-                                                            <rect key="frame" x="8" y="37" width="26.5" height="21"/>
+                                                            <rect key="frame" x="8" y="37" width="27.5" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="0eU-wU-RZs"/>
                                                             </constraints>
@@ -2535,7 +2357,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCU-At-h03">
-                                                            <rect key="frame" x="39.5" y="37" width="0.0" height="21"/>
+                                                            <rect key="frame" x="40.5" y="37" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="xB5-oP-QRt"/>
                                                             </constraints>
@@ -2543,7 +2365,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M53-Xx-UcV">
-                                                            <rect key="frame" x="8" y="58" width="34.5" height="21"/>
+                                                            <rect key="frame" x="8" y="58" width="37.5" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="TT1-6b-fpn"/>
                                                             </constraints>
@@ -2552,7 +2374,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93e-yc-HQR">
-                                                            <rect key="frame" x="44.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="45.5" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="mo1-t8-PPH"/>
                                                             </constraints>
@@ -2560,7 +2382,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Region:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lE9-KX-Yvk">
-                                                            <rect key="frame" x="59.5" y="58" width="45" height="21"/>
+                                                            <rect key="frame" x="60.5" y="58" width="45" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="Nsv-HA-YpW"/>
                                                                 <constraint firstAttribute="width" constant="45" id="a5Y-th-a0Y"/>
@@ -2570,7 +2392,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVm-2Z-0n0">
-                                                            <rect key="frame" x="109.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="110.5" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="KDp-AZ-IEk"/>
                                                             </constraints>

@@ -55,10 +55,10 @@ open class UrlConstants{
         return SERVER_ADDR+"foundry_details/?metal_id=\(metalId)&combination_id=\(combination_id)&user_id=\(AppLifeState.getUserId()!)"
     }
     open static func FIND_TECH_PAPER_BY_ID(_ id:String) -> String{
-        return SERVER_ADDR+"find_tech_paper/?kwd_id=\(id)&user_id=\(AppLifeState.getUserId())!"
+        return SERVER_ADDR+"find_tech_paper/?kwd_id=\(id)&user_id=\(AppLifeState.getUserId()!)"
     }
     open static func FIND_MAT_EQUIMENT_BY_ID(_ id:String) -> String{
-        return SERVER_ADDR+"material_equipment/?kwd_id=\(id)&user_id=\(AppLifeState.getUserId())!"
+        return SERVER_ADDR+"material_equipment/?kwd_id=\(id)&user_id=\(AppLifeState.getUserId()!)"
     }
     open static func FIND_TUTORIAL_BY_ID(_ id:String) -> String{
         return SERVER_ADDR+"application_details/?app_id=\(id)"

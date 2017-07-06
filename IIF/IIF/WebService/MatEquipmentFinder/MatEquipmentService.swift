@@ -18,7 +18,7 @@ class MatEquipmentService: NSObject,NSURLConnectionDataDelegate,NSURLConnectionD
     open func send(id:String) {
         
         let url:URL=URL(string: UrlConstants.FIND_MAT_EQUIMENT_BY_ID(id.encodeURL()!))!;
-        
+        print(url);
         var request:URLRequest=URLRequest(url: url);
         
         request.httpMethod = String("GET")

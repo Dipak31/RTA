@@ -50,6 +50,6 @@ class MatEquipment: NSObject {
     }
     
     func getPDFUrl() -> URL{
-        return URL(string:self.url.encodeURL()!)!
+        return URL(string:url)!
     }
 }

@@ -456,11 +456,12 @@ extension MatEquipFinderVC : UITableViewDelegate,UITableViewDataSource{
     }
     func actionViewPDFFile(sender:UIButton){
         
-        let theCell : TechPaperCell? = sender.getCellInstance() as? TechPaperCell;
+        let theCell : MatEquipmentCell? = sender.getCellInstance() as? MatEquipmentCell;
         
         if theCell != nil{
             
-            let pdfUrl = theCell!.techPaper!.getPDFUrl();
+            let pdfUrl = theCell!.matEquipment!.getPDFUrl();
+            print(pdfUrl);
             
             if #available(iOS 9.0, *) {
                 let svc = SFSafariViewController(url: pdfUrl)
@@ -474,12 +475,12 @@ extension MatEquipFinderVC : UITableViewDelegate,UITableViewDataSource{
     }
     func actionShare(sender:UIButton){
         
-        let theCell : TechPaperCell? = sender.getCellInstance() as? TechPaperCell;
+        let theCell : MatEquipmentCell? = sender.getCellInstance() as? MatEquipmentCell;
         
         if theCell != nil{
             
-            let pdfUrl = UrlConstants.PDF_FILE_BASEAPI + theCell!.techPaper!.fileName!.encodeURL()!
-            socialSharing?.shareFile(file: pdfUrl);
+           // let pdfUrl = UrlConstants.PDF_FILE_BASEAPI + theCell!.matEquipment!.fileName!.encodeURL()!
+            socialSharing?.shareFile(file: theCell!.matEquipment!.url);
         }
     }
     

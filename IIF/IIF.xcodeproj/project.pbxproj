@@ -862,16 +862,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mehul Panchal (G6WUD33752)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mehul Panchal (G6WUD33752)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: RTA Services (8VTE5ED972)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: RTA Services (8VTE5ED972)";
 				DEVELOPMENT_TEAM = 8VTE5ED972;
 				INFOPLIST_FILE = IIF/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IIF.TechMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "34bed629-affe-48bc-8979-87019a3ecb5f";
-				PROVISIONING_PROFILE_SPECIFIER = dev_TechMate;
+				PROVISIONING_PROFILE = "b170edb4-d496-4a41-aa6f-a04503eb5dfa";
+				PROVISIONING_PROFILE_SPECIFIER = IIF_DIST;
 				SWIFT_OBJC_BRIDGING_HEADER = IIF/IIF_Bridging_Header_h.h;
 				SWIFT_VERSION = 3.0;
 			};
@@ -881,16 +881,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mehul Panchal (G6WUD33752)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mehul Panchal (G6WUD33752)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: RTA Services (8VTE5ED972)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: RTA Services (8VTE5ED972)";
 				DEVELOPMENT_TEAM = 8VTE5ED972;
 				INFOPLIST_FILE = IIF/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IIF.TechMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "34bed629-affe-48bc-8979-87019a3ecb5f";
-				PROVISIONING_PROFILE_SPECIFIER = dev_TechMate;
+				PROVISIONING_PROFILE = "b170edb4-d496-4a41-aa6f-a04503eb5dfa";
+				PROVISIONING_PROFILE_SPECIFIER = IIF_DIST;
 				SWIFT_OBJC_BRIDGING_HEADER = IIF/IIF_Bridging_Header_h.h;
 				SWIFT_VERSION = 3.0;
 			};
