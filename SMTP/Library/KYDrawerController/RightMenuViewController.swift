@@ -12,6 +12,7 @@ public enum MenuItem : String {
     case Share = "Share"
     case Purchase = "Purchase Strokes"
     case Restore = "Restore"
+    case desclaimer = "Disclaimer"
 }
 
 class RightMenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
@@ -19,7 +20,7 @@ class RightMenuViewController: UIViewController,UITableViewDelegate,UITableViewD
     @IBOutlet weak var tableView: UITableView!
        
     let menuList : [MenuItem] = [.Share,.Purchase,.Restore];
-    let image : [String] = ["share","purchase","restore"];
+    let image : [String] = ["share","purchase","restore","info"];
     var dashBoardViewController: UIViewController!
     
     
@@ -97,6 +98,11 @@ class RightMenuViewController: UIViewController,UITableViewDelegate,UITableViewD
                 }
             });
             
+        }else if indexPath.row == 3{
+            let storyBoard = StoryBoard.MAIN.Instance();
+            let vc = storyBoard.instantiateViewController(withIdentifier: String(describing:DisclaimerViewController.self)) as!  DisclaimerViewController
+            APP_DELEGATE?.rootViewController().present(vc, animated: true, completion: nil);
+
         }
             //drawerController?.mainViewController = dashBoardViewController;
 

@@ -11,15 +11,15 @@ import StoreKit
 
 enum ProductIdentifier : String {
     
-    case allStroke = "SMTP_AllStrokes"//"in.co.tennispro.smtp.allstrokes"
-    case serve = "SMTP_Serve"//"in.co.tennispro.smtp.serve"
-    case forehand = "SMTP_Forehand"//"in.co.tennispro.smtp.forehand"
-    case backhand2 = "SMTP_DHB"//"in.co.tennispro.smtp.backhand2"
-    case slice = "SMTP_Slice"//"in.co.tennispro.smtp.slice"
-    case returnForehand = "SMTP_ForehandReturn"//"in.co.tennispro.smtp.returnforehand"
-    case returnBackhand2 = "SMTP_DHBR"//"in.co.tennispro.smtp.returnbackhand2"
-    case volleyBackhand = "SMTP_BackhandVolley"//"in.co.tennispro.smtp.volleybackhand"
-    case footworkAndPointPlay = "SMTP_FWandPP"//"in.co.tennispro.smpt.footworkandpointplay"
+    case allStroke = "SMTP_AllStrokes"
+    case backhandvolley = "SMTP_BackhandVolley"
+    case doubleHandedBackhand = "SMTP_DHB"
+    case doubleHandedBackhandReturn = "SMTP_DHBR"
+    case footworkAndPointPlay = "SMTP_FWandPP"
+    case forehand = "SMTP_Forehand"
+    case returnForehand = "SMTP_ForehandReturn"
+    case serve = "SMTP_Serve"
+    case slice = "SMTP_Slice"
 
 }
 
