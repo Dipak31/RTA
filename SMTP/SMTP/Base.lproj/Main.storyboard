@@ -1690,7 +1690,7 @@ Please try another category.</string>
                                     </button>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GxU-rl-VIa">
                                         <rect key="frame" x="0.0" y="70" width="284" height="340"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="delegate" destination="HPM-Qc-dGC" id="LZY-iO-bML"/>
                                         </connections>

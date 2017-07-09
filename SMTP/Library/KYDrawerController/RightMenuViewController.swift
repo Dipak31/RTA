@@ -101,6 +101,8 @@ class RightMenuViewController: UIViewController,UITableViewDelegate,UITableViewD
         }else if indexPath.row == 3{
             let storyBoard = StoryBoard.MAIN.Instance();
             let vc = storyBoard.instantiateViewController(withIdentifier: String(describing:DisclaimerViewController.self)) as!  DisclaimerViewController
+            vc.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
+            vc.modalTransitionStyle = UIModalTransitionStyle.coverVertical;
             APP_DELEGATE?.rootViewController().present(vc, animated: true, completion: nil);
 
         }
