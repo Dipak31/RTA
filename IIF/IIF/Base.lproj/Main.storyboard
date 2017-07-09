@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -36,14 +36,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_img" translatesAutoresizingMaskIntoConstraints="NO" id="uEx-TU-0Sh">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIy-Xs-nds">
-                                <rect key="frame" x="40" y="293.5" width="240" height="40"/>
+                                <rect key="frame" x="87" y="422" width="240" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="9Jh-b2-f2O"/>
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVm-Ax-9UD">
-                                <rect key="frame" x="40" y="245.5" width="240" height="40"/>
+                                <rect key="frame" x="87" y="374" width="240" height="40"/>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.57647058823529407" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="EbW-ZK-ih0"/>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7p-BA-yKK" userLabel="ViewMobile">
-                                <rect key="frame" x="40" y="187.5" width="240" height="50"/>
+                                <rect key="frame" x="87" y="316" width="240" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile No." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sug-wL-83g">
                                         <rect key="frame" x="20" y="8" width="200" height="30"/>
@@ -115,14 +115,14 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_2" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-et-MgM">
-                                <rect key="frame" x="97.5" y="333.5" width="125" height="125"/>
+                                <rect key="frame" x="145" y="462" width="125" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="125" id="p0d-fF-kpm"/>
                                     <constraint firstAttribute="width" constant="125" id="pg5-A0-AgO"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_1" translatesAutoresizingMaskIntoConstraints="NO" id="vLe-ao-SAJ">
-                                <rect key="frame" x="97.5" y="0.5" width="125" height="167"/>
+                                <rect key="frame" x="145" y="129" width="125" height="167"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="9Sc-OI-gOx"/>
                                     <constraint firstAttribute="height" constant="167" id="KiJ-FU-uR2"/>
@@ -167,11 +167,11 @@
                         <viewControllerLayoutGuide type="bottom" id="7mr-Kl-jb1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WgJ-xy-hf0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lxs-ou-whb" userLabel="ViewHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_1" translatesAutoresizingMaskIntoConstraints="NO" id="8JJ-uK-7V1">
                                         <rect key="frame" x="8" y="25" width="50" height="50"/>
@@ -182,7 +182,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yRL-Tx-X2E">
-                                        <rect key="frame" x="66" y="30" width="188" height="41"/>
+                                        <rect key="frame" x="66" y="30" width="252" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="DbK-8Z-yiz"/>
                                         </constraints>
@@ -193,7 +193,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="d7f-9d-9Em">
-                                        <rect key="frame" x="50" y="76" width="262" height="41"/>
+                                        <rect key="frame" x="50" y="106" width="356" height="11"/>
                                         <string key="text">IIF Center, 335, Rajdanga Main Road, East Kolkata Township P.O., Kolkata – 700 107.
 +91 3326666 | www.indianfoundry.org</string>
                                         <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="11"/>
@@ -201,18 +201,18 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_2" translatesAutoresizingMaskIntoConstraints="NO" id="3ax-Ru-GiJ">
-                                        <rect key="frame" x="262" y="25" width="50" height="50"/>
+                                        <rect key="frame" x="326" y="25" width="80" height="80"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="7jm-M7-Bw2"/>
-                                            <constraint firstAttribute="width" constant="50" id="HDC-Ek-WTD"/>
+                                            <constraint firstAttribute="height" constant="80" id="7jm-M7-Bw2"/>
+                                            <constraint firstAttribute="width" constant="80" id="HDC-Ek-WTD"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dashboard Header" translatesAutoresizingMaskIntoConstraints="NO" id="M8l-kI-67D">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q16-JE-Wfy">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
                                         <connections>
                                             <action selector="actionHeader:" destination="d8M-iC-sjZ" eventType="touchUpInside" id="UU0-p0-n8Z"/>
                                         </connections>
@@ -254,7 +254,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3If-J4-yqZ" userLabel="Label Sapretor">
-                                <rect key="frame" x="0.0" y="125" width="320" height="10"/>
+                                <rect key="frame" x="0.0" y="125" width="414" height="10"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="vaI-xB-ekf"/>
@@ -264,7 +264,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEW  USER  REGISTRATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIO-xG-qaT">
-                                <rect key="frame" x="16" y="142" width="288" height="21"/>
+                                <rect key="frame" x="16" y="142" width="382" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="EsU-1q-EQU"/>
                                 </constraints>
@@ -273,7 +273,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fields marked with * are mandatory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntj-nS-9xn">
-                                <rect key="frame" x="16" y="163" width="288" height="21"/>
+                                <rect key="frame" x="16" y="163" width="382" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="g6A-o3-eTE"/>
                                 </constraints>
@@ -282,14 +282,14 @@ OF INDIAN FOUNDRYMEN</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nCY-3t-Aw9">
-                                <rect key="frame" x="0.0" y="192" width="320" height="182"/>
+                                <rect key="frame" x="0.0" y="192" width="414" height="438"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SignUpTableViewCell" id="hlU-yR-miX" customClass="SignUpTableViewCell" customModule="IIF" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hlU-yR-miX" id="Vym-ri-CZR">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2q-JP-0Pd">
@@ -302,7 +302,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hj1-3Q-RGw">
-                                                    <rect key="frame" x="116" y="6" width="196" height="31"/>
+                                                    <rect key="frame" x="116" y="6" width="290" height="31"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -334,7 +334,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rob-iM-oXG">
-                                <rect key="frame" x="40" y="382" width="240" height="40"/>
+                                <rect key="frame" x="87" y="638" width="240" height="40"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="AK9-ed-0Kj"/>
@@ -349,7 +349,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K4e-KO-1UJ">
-                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="kVF-tz-vwR"/>
@@ -395,7 +395,7 @@ OF INDIAN FOUNDRYMEN</string>
         <scene sceneID="Z8E-uh-ApZ">
             <objects>
                 <navigationController storyboardIdentifier="dashboardNav" navigationBarHidden="YES" id="FrP-xB-LtJ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yG9-NU-HQr">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="yG9-NU-HQr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -416,65 +416,23 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="D24-lm-Wha"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="U0L-jc-yiD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iil-Gx-5Vc" userLabel="ViewHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_1" translatesAutoresizingMaskIntoConstraints="NO" id="8Ho-8V-FQx">
-                                        <rect key="frame" x="8" y="25" width="50" height="50"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="hUz-DS-ZAL"/>
-                                            <constraint firstAttribute="height" constant="50" id="pAK-62-aAW"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The  Institute of Indian Foundrymen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="alL-fP-x7B">
-                                        <rect key="frame" x="66" y="30" width="188" height="41"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="41" id="gVP-eq-Q6h"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Code-Pro-Demo" family="Code Pro Demo" pointSize="15"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZEv-6o-3pS">
-                                        <rect key="frame" x="8" y="76" width="304" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="kcO-fR-5sR"/>
-                                        </constraints>
-                                        <string key="text">IIF Center, 335, Rajdanga Main Road, East Kolkata Township P.O., Kolkata – 700 107.
-+91 3326666 | www.indianfoundry.org</string>
-                                        <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="11"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_2" translatesAutoresizingMaskIntoConstraints="NO" id="Ss6-1L-Zb0">
-                                        <rect key="frame" x="262" y="25" width="50" height="50"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="XLy-Qh-Lzx"/>
-                                            <constraint firstAttribute="width" constant="50" id="mFP-pd-4kd"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Indian  Foundry Applications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1i-Kx-Ykh">
-                                        <rect key="frame" x="8" y="116" width="304" height="19"/>
-                                        <fontDescription key="fontDescription" name="Code-Pro-Demo" family="Code Pro Demo" pointSize="14"/>
-                                        <color key="textColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dashboard Header" translatesAutoresizingMaskIntoConstraints="NO" id="c9c-FO-H9i">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dashboard Header" translatesAutoresizingMaskIntoConstraints="NO" id="c9c-FO-H9i">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XT-aM-jRz">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                         <connections>
                                             <action selector="btnHeaderPressed:" destination="Kpz-EG-faY" eventType="touchUpInside" id="vjg-yp-fIx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B92-QF-6hF">
-                                        <rect key="frame" x="275" y="95" width="40" height="40"/>
+                                        <rect key="frame" x="369" y="75" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="CNu-c3-Jti"/>
                                             <constraint firstAttribute="width" constant="40" id="hMQ-ic-Ozk"/>
@@ -488,34 +446,20 @@ OF INDIAN FOUNDRYMEN</string>
                                 <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="2XT-aM-jRz" firstAttribute="leading" secondItem="iil-Gx-5Vc" secondAttribute="leading" id="424-aK-NW0"/>
-                                    <constraint firstAttribute="height" constant="140" id="5GC-0x-wxc"/>
+                                    <constraint firstAttribute="height" constant="120" id="5GC-0x-wxc"/>
                                     <constraint firstAttribute="bottom" secondItem="2XT-aM-jRz" secondAttribute="bottom" id="6Wy-bU-2c4"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ss6-1L-Zb0" secondAttribute="trailing" constant="8" id="7BW-Zh-gkR"/>
                                     <constraint firstAttribute="trailing" secondItem="2XT-aM-jRz" secondAttribute="trailing" id="7ns-CJ-19G"/>
                                     <constraint firstAttribute="bottom" secondItem="B92-QF-6hF" secondAttribute="bottom" constant="5" id="8ZS-Pd-UlV"/>
-                                    <constraint firstItem="alL-fP-x7B" firstAttribute="leading" secondItem="8Ho-8V-FQx" secondAttribute="trailing" constant="8" id="Ihc-LN-11W"/>
                                     <constraint firstItem="c9c-FO-H9i" firstAttribute="leading" secondItem="iil-Gx-5Vc" secondAttribute="leading" id="Odu-cD-XBz"/>
-                                    <constraint firstItem="P1i-Kx-Ykh" firstAttribute="top" secondItem="ZEv-6o-3pS" secondAttribute="bottom" constant="5" id="PHW-E4-ZTl"/>
-                                    <constraint firstItem="alL-fP-x7B" firstAttribute="top" secondItem="iil-Gx-5Vc" secondAttribute="top" constant="30" id="U8S-He-RG7"/>
-                                    <constraint firstItem="P1i-Kx-Ykh" firstAttribute="leading" secondItem="iil-Gx-5Vc" secondAttribute="leading" constant="8" id="U9x-zU-Mv1"/>
                                     <constraint firstAttribute="trailing" secondItem="c9c-FO-H9i" secondAttribute="trailing" id="VF5-49-dAZ"/>
-                                    <constraint firstItem="Ss6-1L-Zb0" firstAttribute="leading" secondItem="alL-fP-x7B" secondAttribute="trailing" constant="8" id="XgP-OX-pRg"/>
-                                    <constraint firstItem="8Ho-8V-FQx" firstAttribute="top" secondItem="iil-Gx-5Vc" secondAttribute="top" constant="25" id="Ye4-q0-79u"/>
-                                    <constraint firstItem="Ss6-1L-Zb0" firstAttribute="top" secondItem="iil-Gx-5Vc" secondAttribute="top" constant="25" id="ZH3-lw-Ndh"/>
-                                    <constraint firstAttribute="trailing" secondItem="ZEv-6o-3pS" secondAttribute="trailing" constant="8" id="bTm-rK-2R1"/>
-                                    <constraint firstAttribute="trailing" secondItem="P1i-Kx-Ykh" secondAttribute="trailing" constant="8" id="d92-dj-qVK"/>
-                                    <constraint firstItem="ZEv-6o-3pS" firstAttribute="top" secondItem="Ss6-1L-Zb0" secondAttribute="bottom" constant="1" id="eOH-oV-sop"/>
-                                    <constraint firstItem="8Ho-8V-FQx" firstAttribute="leading" secondItem="iil-Gx-5Vc" secondAttribute="leading" constant="8" id="hqa-2v-3RO"/>
                                     <constraint firstItem="c9c-FO-H9i" firstAttribute="top" secondItem="iil-Gx-5Vc" secondAttribute="top" id="iP1-K2-xbm"/>
                                     <constraint firstAttribute="trailing" secondItem="B92-QF-6hF" secondAttribute="trailing" constant="5" id="kur-sF-ul5"/>
-                                    <constraint firstAttribute="bottom" secondItem="P1i-Kx-Ykh" secondAttribute="bottom" constant="5" id="mkH-at-weY"/>
                                     <constraint firstItem="2XT-aM-jRz" firstAttribute="top" secondItem="iil-Gx-5Vc" secondAttribute="top" id="phf-QU-Mgk"/>
-                                    <constraint firstItem="ZEv-6o-3pS" firstAttribute="leading" secondItem="iil-Gx-5Vc" secondAttribute="leading" constant="8" id="qeS-RF-3NH"/>
                                     <constraint firstAttribute="bottom" secondItem="c9c-FO-H9i" secondAttribute="bottom" id="sZ7-20-kdP"/>
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8i4-uR-ffA" userLabel="Label Sapretor">
-                                <rect key="frame" x="0.0" y="140" width="320" height="10"/>
+                                <rect key="frame" x="0.0" y="120" width="414" height="10"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="ahg-Kz-oCI"/>
@@ -525,7 +469,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vhd-NG-Kdg">
-                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4Md-Tl-MS2"/>
@@ -535,7 +479,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="H4H-JM-28C">
-                                <rect key="frame" x="0.0" y="140" width="320" height="270"/>
+                                <rect key="frame" x="0.0" y="120" width="414" height="546"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="3RN-A7-gFJ">
                                     <size key="itemSize" width="187" height="187"/>
@@ -545,7 +489,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppListCollectionCell" id="RZo-GP-Dyb" customClass="AppListCollectionCell" customModule="IIF" customModuleProvider="target">
-                                        <rect key="frame" x="66.5" y="0.0" width="187" height="187"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="187" height="187"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="187" height="187"/>
@@ -558,7 +502,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                     <rect key="frame" x="5" y="15" width="15" height="15"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAh-t5-nfY">
-                                                    <rect key="frame" x="25" y="16.5" width="7" height="14"/>
+                                                    <rect key="frame" x="25" y="18" width="9" height="12"/>
                                                     <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -592,7 +536,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsE-s2-aaw">
-                                <rect key="frame" x="0.0" y="410" width="320" height="20"/>
+                                <rect key="frame" x="0.0" y="666" width="414" height="20"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="BMK-rn-Jdr"/>
@@ -646,11 +590,11 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="PCr-kK-dbg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vOm-FF-eZK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dvG-zq-XJ3" userLabel="ViewHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_1" translatesAutoresizingMaskIntoConstraints="NO" id="Dyx-RX-yQo">
                                         <rect key="frame" x="8" y="25" width="50" height="50"/>
@@ -661,7 +605,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOUNDRY TECH" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1Rh-TR-YBl">
-                                        <rect key="frame" x="108" y="25" width="136" height="21"/>
+                                        <rect key="frame" x="108" y="25" width="230" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="uAh-3T-DIa"/>
                                         </constraints>
@@ -678,7 +622,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68p-pU-O4Q">
-                                        <rect key="frame" x="252" y="25" width="1" height="45"/>
+                                        <rect key="frame" x="346" y="25" width="1" height="45"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="Nku-uS-YeM"/>
@@ -689,7 +633,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hst-aL-Mm6">
-                                        <rect key="frame" x="108" y="45" width="136" height="30"/>
+                                        <rect key="frame" x="108" y="45" width="230" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="3RH-eT-9rL"/>
                                         </constraints>
@@ -698,10 +642,10 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foundary_tech_header" translatesAutoresizingMaskIntoConstraints="NO" id="iNN-ne-n2V">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFI-d3-I2D">
-                                        <rect key="frame" x="230" y="11" width="90" height="74"/>
+                                        <rect key="frame" x="324" y="11" width="90" height="74"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="74" id="ISD-jV-9Pq"/>
                                             <constraint firstAttribute="width" constant="90" id="dvh-5X-g9L"/>
@@ -719,7 +663,7 @@ OF INDIAN FOUNDRYMEN</string>
                                     <constraint firstItem="1Rh-TR-YBl" firstAttribute="top" secondItem="dvG-zq-XJ3" secondAttribute="top" constant="25" id="FL0-cV-8zb"/>
                                     <constraint firstItem="iNN-ne-n2V" firstAttribute="leading" secondItem="dvG-zq-XJ3" secondAttribute="leading" id="FRb-VZ-uGi"/>
                                     <constraint firstItem="Dyx-RX-yQo" firstAttribute="leading" secondItem="dvG-zq-XJ3" secondAttribute="leading" constant="8" id="HRF-lb-XZt"/>
-                                    <constraint firstAttribute="height" constant="92" id="HWn-7Z-rXy"/>
+                                    <constraint firstAttribute="height" constant="100" id="HWn-7Z-rXy"/>
                                     <constraint firstItem="1Rh-TR-YBl" firstAttribute="leading" secondItem="dus-21-IY9" secondAttribute="trailing" id="IDq-Wq-6k4"/>
                                     <constraint firstItem="Dyx-RX-yQo" firstAttribute="top" secondItem="dvG-zq-XJ3" secondAttribute="top" constant="25" id="IPY-b6-8ZY"/>
                                     <constraint firstAttribute="trailing" secondItem="iNN-ne-n2V" secondAttribute="trailing" id="UdJ-3h-4Vq"/>
@@ -735,7 +679,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncr-5v-P04" userLabel="Label Sapretor">
-                                <rect key="frame" x="0.0" y="92" width="320" height="10"/>
+                                <rect key="frame" x="0.0" y="100" width="414" height="10"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="ON6-ES-Jeu"/>
@@ -745,10 +689,10 @@ OF INDIAN FOUNDRYMEN</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G8g-Xb-A9U">
-                                <rect key="frame" x="0.0" y="100" width="320" height="34"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="34"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="X3I-kb-RgZ">
-                                        <rect key="frame" x="8" y="3" width="304" height="29"/>
+                                        <rect key="frame" x="8" y="3" width="398" height="29"/>
                                         <segments>
                                             <segment title="Keywords"/>
                                             <segment title="Author"/>
@@ -770,7 +714,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbC-Yb-KRb" userLabel="View Search">
-                                <rect key="frame" x="0.0" y="134" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="142" width="414" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqV-mC-rp0" userLabel="Label sapretor">
                                         <rect key="frame" x="41" y="10" width="1" height="30"/>
@@ -792,7 +736,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmz-Ep-f6C" userLabel="Label sapretor">
-                                        <rect key="frame" x="274" y="10" width="1" height="30"/>
+                                        <rect key="frame" x="368" y="10" width="1" height="30"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="AG5-IR-oKp"/>
@@ -802,7 +746,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qv7-oy-dG7" userLabel="Button Search">
-                                        <rect key="frame" x="284" y="12" width="28" height="26"/>
+                                        <rect key="frame" x="378" y="12" width="28" height="26"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="28" id="VVI-Xu-U2i"/>
                                         </constraints>
@@ -819,7 +763,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tcV-5m-y2U">
-                                        <rect key="frame" x="104" y="10" width="162" height="30"/>
+                                        <rect key="frame" x="104" y="10" width="256" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -850,33 +794,51 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-Qy-X3y">
-                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="tXW-m1-ig4"/>
                                 </constraints>
                             </imageView>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BuX-Zk-ip8" userLabel="Table View Search">
+                                <rect key="frame" x="0.0" y="192" width="414" height="494"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="searchKeywordCell" id="kHQ-pU-91b">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kHQ-pU-91b" id="zPP-s7-07p">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="3IF-fR-Kh2" id="w5p-vP-jMK"/>
+                                    <outlet property="delegate" destination="3IF-fR-Kh2" id="1gY-tq-ukd"/>
+                                </connections>
+                            </tableView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="137" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZYR-6y-ZAO" userLabel="Table View TechMate">
-                                <rect key="frame" x="0.0" y="184" width="320" height="246"/>
+                                <rect key="frame" x="0.0" y="192" width="414" height="494"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TechPaperCell" rowHeight="138" id="r4O-Kz-Ilz" customClass="TechPaperCell" customModule="IIF" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="138"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="138"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r4O-Kz-Ilz" id="uJQ-wn-mdL">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRz-uV-lZ3">
-                                                    <rect key="frame" x="5" y="5" width="310" height="131"/>
+                                                    <rect key="frame" x="5" y="5" width="404" height="131"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qn0-pD-bNS">
-                                                            <rect key="frame" x="8" y="8" width="294" height="21"/>
+                                                            <rect key="frame" x="8" y="8" width="388" height="21"/>
                                                             <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pub Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hCA-uH-uTd">
-                                                            <rect key="frame" x="8" y="55" width="74.5" height="21"/>
+                                                            <rect key="frame" x="8" y="55" width="74.666666666666671" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="mdI-o2-HtD"/>
                                                             </constraints>
@@ -911,7 +873,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkh-bF-jnj" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="164" y="96" width="65" height="30"/>
+                                                            <rect key="frame" x="258" y="96" width="65" height="30"/>
                                                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="1m8-np-R5Q"/>
@@ -928,7 +890,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dp3-sq-h3y" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="237" y="96" width="65" height="30"/>
+                                                            <rect key="frame" x="331" y="96" width="65" height="30"/>
                                                             <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="6pa-CT-cz4"/>
@@ -997,26 +959,8 @@ OF INDIAN FOUNDRYMEN</string>
                                     <outlet property="delegate" destination="3IF-fR-Kh2" id="hv4-gM-EQp"/>
                                 </connections>
                             </tableView>
-                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BuX-Zk-ip8" userLabel="Table View Search">
-                                <rect key="frame" x="0.0" y="184" width="320" height="246"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="searchKeywordCell" id="kHQ-pU-91b">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kHQ-pU-91b" id="zPP-s7-07p">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="3IF-fR-Kh2" id="w5p-vP-jMK"/>
-                                    <outlet property="delegate" destination="3IF-fR-Kh2" id="1gY-tq-ukd"/>
-                                </connections>
-                            </tableView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Paper Available" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBZ-aY-oQR">
-                                <rect key="frame" x="16" y="229.5" width="288" height="21"/>
+                                <rect key="frame" x="16" y="357.66666666666669" width="382" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="tyC-Df-4Oj"/>
                                 </constraints>
@@ -1080,17 +1024,17 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="40P-Ok-UmT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Nf-CE-sMy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSo-S8-Uaf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <connections>
                                     <action selector="actionBack:" destination="aef-P6-wHq" eventType="touchUpInside" id="XXz-RY-9ny"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qxt-dv-tGr" userLabel="PopUP">
-                                <rect key="frame" x="10" y="20" width="300" height="390"/>
+                                <rect key="frame" x="57" y="20" width="300" height="646"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_foundry_techmate" translatesAutoresizingMaskIntoConstraints="NO" id="MZi-qX-Tr1">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
@@ -1099,11 +1043,11 @@ OF INDIAN FOUNDRYMEN</string>
                                         </constraints>
                                     </imageView>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IPN-BX-SbF">
-                                        <rect key="frame" x="8" y="108" width="284" height="184"/>
+                                        <rect key="frame" x="8" y="108" width="284" height="440"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </webView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxC-eY-64I">
-                                        <rect key="frame" x="95.5" y="342" width="110" height="40"/>
+                                        <rect key="frame" x="95" y="598" width="110" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="110" id="pvN-GV-ZOf"/>
@@ -1118,7 +1062,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5D-fI-fxP">
-                                        <rect key="frame" x="10" y="292" width="150" height="40"/>
+                                        <rect key="frame" x="10" y="548" width="150" height="40"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.70980392160000005" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="150" id="Wvy-jh-h3O"/>
@@ -1133,7 +1077,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gi-C3-eoA">
-                                        <rect key="frame" x="175" y="292" width="110" height="40"/>
+                                        <rect key="frame" x="175" y="548" width="110" height="40"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.70980392160000005" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="110" id="M1r-ir-Fo1"/>
@@ -1149,7 +1093,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play-button" translatesAutoresizingMaskIntoConstraints="NO" id="Vaa-ae-7Wh">
-                                        <rect key="frame" x="182.5" y="300" width="25" height="25"/>
+                                        <rect key="frame" x="183" y="556" width="25" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="25" id="0aj-Qu-OCK"/>
                                             <constraint firstAttribute="height" constant="25" id="3OW-nt-bPh"/>
@@ -1177,7 +1121,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ja5-0c-3g8">
-                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="XfS-OW-Pi5"/>
@@ -1187,7 +1131,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KD2-rU-qMk">
-                                <rect key="frame" x="0.0" y="410" width="320" height="20"/>
+                                <rect key="frame" x="0.0" y="666" width="414" height="20"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.8358304794520548" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="PCZ-gJ-2GV"/>
@@ -1241,17 +1185,17 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="FNe-2D-EWS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zyj-Ta-Yda">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqo-BK-Z7u">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <connections>
                                     <action selector="actionBack:" destination="GdR-YB-m8d" eventType="touchUpInside" id="YL0-n9-LYH"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFv-GD-Kbb" userLabel="PopUP">
-                                <rect key="frame" x="10" y="100" width="300" height="280"/>
+                                <rect key="frame" x="57" y="228" width="300" height="280"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82a-NH-DfR">
                                         <rect key="frame" x="20" y="225" width="120" height="40"/>
@@ -1261,7 +1205,7 @@ OF INDIAN FOUNDRYMEN</string>
                                             <constraint firstAttribute="width" constant="120" id="gkt-nB-yze"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="17"/>
-                                        <state key="normal" title="Close">
+                                        <state key="normal" title="Later">
                                             <color key="titleColor" red="0.98925656080000002" green="0.72882860900000002" blue="0.071602679789999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -1310,7 +1254,7 @@ OF INDIAN FOUNDRYMEN</string>
                                             <constraint firstAttribute="height" constant="40" id="gnK-C1-Eg7"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="14"/>
-                                        <state key="normal" title="Save">
+                                        <state key="normal" title="Submit">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -1369,17 +1313,17 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="7xT-qB-AK1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7Fw-k1-tSR">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whY-I8-HLk" userLabel="ViewHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                 <subviews>
-                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="casting_finder_header_new" translatesAutoresizingMaskIntoConstraints="NO" id="aDJ-U8-HAw">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="casting_finder_header_new" translatesAutoresizingMaskIntoConstraints="NO" id="aDJ-U8-HAw">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4N-QK-SdJ">
-                                        <rect key="frame" x="265" y="15" width="55" height="56"/>
+                                        <rect key="frame" x="359" y="15" width="55" height="56"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="Lkh-7I-xue"/>
                                             <constraint firstAttribute="width" constant="55" id="qFZ-UU-u7Y"/>
@@ -1401,18 +1345,18 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1Cj-v5-YPv" userLabel="Tableview">
-                                <rect key="frame" x="0.0" y="110" width="320" height="280"/>
+                                <rect key="frame" x="0.0" y="110" width="414" height="536"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FilterTableViewCell" id="eHG-zd-bed" customClass="FilterTableViewCell" customModule="IIF" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eHG-zd-bed" id="v63-4L-P07">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="eyh-CA-U2l">
-                                                    <rect key="frame" x="20" y="12" width="282" height="21"/>
+                                                    <rect key="frame" x="20" y="12" width="376" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="t49-Wn-OLV"/>
                                                     </constraints>
@@ -1421,7 +1365,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBK-82-84b">
-                                                    <rect key="frame" x="20" y="43" width="300" height="1"/>
+                                                    <rect key="frame" x="20" y="43" width="394" height="1"/>
                                                     <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="1" id="DsK-10-sIf"/>
@@ -1451,7 +1395,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </tableView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hr6-3x-5sI">
-                                <rect key="frame" x="0.0" y="440" width="320" height="40"/>
+                                <rect key="frame" x="0.0" y="696" width="414" height="40"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -1462,7 +1406,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0U-UV-UmE" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                <rect key="frame" x="85" y="395" width="150" height="40"/>
+                                <rect key="frame" x="132" y="651" width="150" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="5bj-zx-hXV"/>
@@ -1527,18 +1471,17 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="1Sb-6C-GgD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aCX-bO-RKF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p51-iJ-ypk" userLabel="ViewHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="casting_finder_header_new" translatesAutoresizingMaskIntoConstraints="NO" id="f6Z-8e-S8J">
-                                        <rect key="frame" x="0.0" y="-4" width="320" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="casting_finder_header_new" translatesAutoresizingMaskIntoConstraints="NO" id="f6Z-8e-S8J">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWP-w1-40o">
-                                        <rect key="frame" x="252" y="14" width="68" height="64"/>
+                                        <rect key="frame" x="346" y="14" width="68" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="68" id="5zu-hu-HpH"/>
                                             <constraint firstAttribute="height" constant="64" id="ZIZ-D5-CvZ"/>
@@ -1551,16 +1494,20 @@ OF INDIAN FOUNDRYMEN</string>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="92" id="3eY-oj-rrM"/>
+                                    <constraint firstAttribute="height" constant="100" id="3eY-oj-rrM"/>
+                                    <constraint firstAttribute="trailing" secondItem="f6Z-8e-S8J" secondAttribute="trailing" id="C3g-0l-JVJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="f6Z-8e-S8J" secondAttribute="bottom" id="Fiu-Pv-zX3"/>
                                     <constraint firstItem="mWP-w1-40o" firstAttribute="top" secondItem="p51-iJ-ypk" secondAttribute="top" constant="14" id="R37-WZ-8Fg"/>
                                     <constraint firstAttribute="trailing" secondItem="mWP-w1-40o" secondAttribute="trailing" id="VPq-n6-uWI"/>
+                                    <constraint firstItem="f6Z-8e-S8J" firstAttribute="leading" secondItem="p51-iJ-ypk" secondAttribute="leading" id="neM-md-Bdf"/>
+                                    <constraint firstItem="f6Z-8e-S8J" firstAttribute="top" secondItem="p51-iJ-ypk" secondAttribute="top" id="ycf-fm-A5N"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZ9-4o-h4S">
-                                <rect key="frame" x="0.0" y="100" width="320" height="34"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="34"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="YHI-QE-avG">
-                                        <rect key="frame" x="8" y="3" width="304" height="29"/>
+                                        <rect key="frame" x="8" y="3" width="398" height="29"/>
                                         <segments>
                                             <segment title="Name"/>
                                             <segment title="City"/>
@@ -1583,7 +1530,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMp-t5-LlX" userLabel="View Search">
-                                <rect key="frame" x="0.0" y="136" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="144" width="414" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8a-V0-Dnd" userLabel="Label sapretor">
                                         <rect key="frame" x="41" y="10" width="1" height="30"/>
@@ -1605,7 +1552,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nR-7C-hHi" userLabel="Label sapretor">
-                                        <rect key="frame" x="274" y="10" width="1" height="30"/>
+                                        <rect key="frame" x="368" y="10" width="1" height="30"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="i2B-Xr-Hcp"/>
@@ -1615,7 +1562,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uH-to-RDw" userLabel="Button Search">
-                                        <rect key="frame" x="284" y="12" width="28" height="26"/>
+                                        <rect key="frame" x="378" y="12" width="28" height="26"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="28" id="mOu-sd-o1v"/>
                                         </constraints>
@@ -1635,13 +1582,13 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qJ9-YK-ln2">
-                                        <rect key="frame" x="104" y="10" width="162" height="30"/>
+                                        <rect key="frame" x="104" y="10" width="256" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOT-uI-iqX">
-                                        <rect key="frame" x="280" y="8" width="32" height="32"/>
+                                        <rect key="frame" x="374" y="8" width="32" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="32" id="CNu-hi-EEy"/>
                                             <constraint firstAttribute="height" constant="32" id="pLo-dG-LIZ"/>
@@ -1679,27 +1626,27 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HYS-bW-6uU">
-                                <rect key="frame" x="0.0" y="186" width="320" height="244"/>
+                                <rect key="frame" x="0.0" y="194" width="414" height="492"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoundaryListCell" rowHeight="132" id="8lL-cz-kpl" customClass="FoundaryListCell" customModule="IIF" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="132"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="132"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8lL-cz-kpl" id="GL3-Lj-dka">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6P-ju-xCM" userLabel="Container">
-                                                    <rect key="frame" x="8" y="4" width="304" height="124"/>
+                                                    <rect key="frame" x="8" y="4" width="398" height="124"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWu-sv-myL">
-                                                            <rect key="frame" x="8" y="8" width="288" height="17"/>
+                                                            <rect key="frame" x="8" y="8" width="382" height="17"/>
                                                             <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQd-1U-bsx">
-                                                            <rect key="frame" x="8" y="37" width="27.5" height="21"/>
+                                                            <rect key="frame" x="8" y="37" width="27.666666666666664" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="KLi-OX-JOQ"/>
                                                             </constraints>
@@ -1708,7 +1655,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ux-Sa-UoT">
-                                                            <rect key="frame" x="40.5" y="37" width="0.0" height="21"/>
+                                                            <rect key="frame" x="40.666666666666664" y="37" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="GAt-Nd-x0t"/>
                                                             </constraints>
@@ -1716,7 +1663,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbf-BD-Lmw">
-                                                            <rect key="frame" x="8" y="58" width="37.5" height="21"/>
+                                                            <rect key="frame" x="8" y="58" width="37.666666666666664" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="1tj-Hu-3Xg"/>
                                                             </constraints>
@@ -1725,7 +1672,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkc-IB-2M9">
-                                                            <rect key="frame" x="48.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="48.666666666666664" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="NvK-QV-pHr"/>
                                                             </constraints>
@@ -1733,7 +1680,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Region:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPg-2Z-hDV">
-                                                            <rect key="frame" x="66.5" y="58" width="45" height="21"/>
+                                                            <rect key="frame" x="66.666666666666671" y="58" width="45" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="45" id="Sre-Xc-VyB"/>
                                                                 <constraint firstAttribute="height" constant="21" id="bat-Dr-aSQ"/>
@@ -1743,7 +1690,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLZ-wP-NqH">
-                                                            <rect key="frame" x="116.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="116.66666666666667" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="8EH-S9-jAl"/>
                                                             </constraints>
@@ -1751,7 +1698,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEr-jj-erh">
-                                                            <rect key="frame" x="8" y="79" width="33.5" height="21"/>
+                                                            <rect key="frame" x="8" y="79" width="33.666666666666664" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="33.5" id="Ag3-SW-Lp0"/>
                                                                 <constraint firstAttribute="height" constant="21" id="euI-Fv-cG3"/>
@@ -1761,7 +1708,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tva-PH-inm">
-                                                            <rect key="frame" x="46.5" y="79" width="0.0" height="21"/>
+                                                            <rect key="frame" x="46.666666666666664" y="79" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="NsJ-0N-O87"/>
                                                             </constraints>
@@ -1769,7 +1716,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olk-7p-y3j" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="161" y="89" width="65" height="30"/>
+                                                            <rect key="frame" x="255" y="89" width="65" height="30"/>
                                                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="h6s-TL-gaQ"/>
@@ -1786,7 +1733,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dk6-kx-8pJ" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="231" y="89" width="65" height="30"/>
+                                                            <rect key="frame" x="325" y="89" width="65" height="30"/>
                                                             <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="65" id="I5h-DN-dLX"/>
@@ -1864,10 +1811,10 @@ OF INDIAN FOUNDRYMEN</string>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="J6P-ju-xCM" secondAttribute="trailing" constant="8" id="aIt-m5-w6g"/>
                                                 <constraint firstAttribute="bottom" secondItem="J6P-ju-xCM" secondAttribute="bottom" constant="4" id="fSn-Aj-A9m"/>
                                                 <constraint firstItem="J6P-ju-xCM" firstAttribute="top" secondItem="GL3-Lj-dka" secondAttribute="top" constant="4" id="hIQ-jd-1eX"/>
                                                 <constraint firstItem="J6P-ju-xCM" firstAttribute="leading" secondItem="GL3-Lj-dka" secondAttribute="leading" constant="8" id="jTh-Ku-dcg"/>
+                                                <constraint firstAttribute="trailing" secondItem="J6P-ju-xCM" secondAttribute="trailing" constant="8" id="zEi-Yq-mtB"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1889,13 +1836,13 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </tableView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Lf-7s-e21">
-                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="RW8-LM-XiW"/>
                                 </constraints>
                             </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Record Found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udZ-6X-SiH">
-                                <rect key="frame" x="-11.5" y="229.5" width="343" height="21"/>
+                                <rect key="frame" x="35.666666666666657" y="357.66666666666669" width="343" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="EBM-OF-P3f"/>
                                     <constraint firstAttribute="height" constant="21" id="VKO-X4-WFg"/>
@@ -1948,11 +1895,11 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="5nO-v5-Uig"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ujv-HN-FKE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ps-pB-FyR" userLabel="ViewHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_1" translatesAutoresizingMaskIntoConstraints="NO" id="hIY-wF-cEt">
                                         <rect key="frame" x="8" y="25" width="50" height="50"/>
@@ -1963,7 +1910,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZIj-f4-PYv">
-                                        <rect key="frame" x="66" y="30" width="188" height="41"/>
+                                        <rect key="frame" x="66" y="30" width="282" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="0HJ-js-1vM"/>
                                         </constraints>
@@ -1974,7 +1921,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Rg8-wt-F2F">
-                                        <rect key="frame" x="8" y="76" width="304" height="41"/>
+                                        <rect key="frame" x="8" y="76" width="398" height="41"/>
                                         <string key="text">IIF Center, 335, Rajdanga Main Road, East Kolkata Township P.O., Kolkata – 700 107.
 +91 3326666 | www.indianfoundry.org</string>
                                         <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="11"/>
@@ -1982,7 +1929,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_2" translatesAutoresizingMaskIntoConstraints="NO" id="Pv0-kc-dBM">
-                                        <rect key="frame" x="262" y="25" width="50" height="50"/>
+                                        <rect key="frame" x="356" y="25" width="50" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="eWd-n3-bLt"/>
@@ -2011,7 +1958,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeH-D5-CL9" userLabel="Label Sapretor">
-                                <rect key="frame" x="0.0" y="125" width="320" height="10"/>
+                                <rect key="frame" x="0.0" y="125" width="414" height="10"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="zDv-pC-pSv"/>
@@ -2021,7 +1968,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vi4-j5-yHP" userLabel="View Search">
-                                <rect key="frame" x="0.0" y="135" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="135" width="414" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHE-cA-pDv" userLabel="Label sapretor">
                                         <rect key="frame" x="41" y="10" width="1" height="30"/>
@@ -2043,7 +1990,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xy-IH-Xe9" userLabel="Label sapretor">
-                                        <rect key="frame" x="274" y="10" width="1" height="30"/>
+                                        <rect key="frame" x="368" y="10" width="1" height="30"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="NUT-Go-dpJ"/>
@@ -2053,7 +2000,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Am-Uj-5AQ" userLabel="Button Search">
-                                        <rect key="frame" x="284" y="12" width="28" height="26"/>
+                                        <rect key="frame" x="378" y="12" width="28" height="26"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="28" id="EeQ-g4-cKK"/>
                                         </constraints>
@@ -2070,7 +2017,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter search text here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OKb-xJ-AlK">
-                                        <rect key="frame" x="104" y="10" width="208" height="30"/>
+                                        <rect key="frame" x="104" y="10" width="302" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -2104,14 +2051,14 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hrx-4p-rsx">
-                                <rect key="frame" x="0.0" y="185" width="320" height="295"/>
+                                <rect key="frame" x="0.0" y="185" width="414" height="551"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CityCell" id="EZh-nO-wTw">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EZh-nO-wTw" id="hmQ-Vd-69L">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -2158,17 +2105,17 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="0EG-ld-ZRw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0MB-NS-z73">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dyO-6f-xUa" userLabel="ViewHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mat_quip_header" translatesAutoresizingMaskIntoConstraints="NO" id="MSU-DA-g5o">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mat_quip_header" translatesAutoresizingMaskIntoConstraints="NO" id="MSU-DA-g5o">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23H-jk-xvn">
-                                        <rect key="frame" x="262" y="16" width="55" height="54"/>
+                                        <rect key="frame" x="356" y="16" width="55" height="54"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="55" id="scz-uR-zCB"/>
                                             <constraint firstAttribute="height" constant="54" id="tVT-dC-DC8"/>
@@ -2185,12 +2132,12 @@ OF INDIAN FOUNDRYMEN</string>
                                     <constraint firstAttribute="trailing" secondItem="MSU-DA-g5o" secondAttribute="trailing" id="3Ru-6B-tGF"/>
                                     <constraint firstItem="MSU-DA-g5o" firstAttribute="top" secondItem="dyO-6f-xUa" secondAttribute="top" id="AOL-lR-VkJ"/>
                                     <constraint firstItem="MSU-DA-g5o" firstAttribute="leading" secondItem="dyO-6f-xUa" secondAttribute="leading" id="EKQ-XX-2Pd"/>
-                                    <constraint firstAttribute="height" constant="92" id="KV4-vS-ZAW"/>
+                                    <constraint firstAttribute="height" constant="100" id="KV4-vS-ZAW"/>
                                     <constraint firstAttribute="trailing" secondItem="23H-jk-xvn" secondAttribute="trailing" constant="3" id="tZ8-Qp-LRV"/>
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZh-pL-1pN" userLabel="Label Sapretor">
-                                <rect key="frame" x="0.0" y="92" width="320" height="10"/>
+                                <rect key="frame" x="0.0" y="100" width="414" height="10"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="mA0-fT-lD9"/>
@@ -2200,10 +2147,10 @@ OF INDIAN FOUNDRYMEN</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y96-Tk-Amf">
-                                <rect key="frame" x="0.0" y="100" width="320" height="34"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="34"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vcC-G6-A8u">
-                                        <rect key="frame" x="8" y="3" width="304" height="29"/>
+                                        <rect key="frame" x="8" y="3" width="398" height="29"/>
                                         <segments>
                                             <segment title="Name"/>
                                             <segment title="City"/>
@@ -2226,10 +2173,10 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXd-EP-k00" userLabel="View Search">
-                                <rect key="frame" x="0.0" y="134" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="142" width="414" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oho-Wr-jTh">
-                                        <rect key="frame" x="10" y="10" width="216" height="30"/>
+                                        <rect key="frame" x="10" y="10" width="310" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -2238,7 +2185,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ik7-Yr-Me4" userLabel="Label sapretor">
-                                        <rect key="frame" x="274" y="10" width="1" height="30"/>
+                                        <rect key="frame" x="368" y="10" width="1" height="30"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="wgM-Vy-d7m"/>
@@ -2248,7 +2195,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gp6-Ha-Hmm" userLabel="Button Search">
-                                        <rect key="frame" x="284" y="12" width="28" height="26"/>
+                                        <rect key="frame" x="378" y="12" width="28" height="26"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="28" id="ETf-pE-MN6"/>
                                         </constraints>
@@ -2258,7 +2205,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1N-BE-ZMa">
-                                        <rect key="frame" x="280" y="10" width="32" height="32"/>
+                                        <rect key="frame" x="374" y="10" width="32" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="GSI-Er-3Pa"/>
                                             <constraint firstAttribute="width" constant="32" id="XnH-Qa-D7u"/>
@@ -2269,7 +2216,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I69-QD-dTD">
-                                        <rect key="frame" x="234" y="10" width="32" height="32"/>
+                                        <rect key="frame" x="328" y="10" width="32" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="32" id="GdV-Jx-Kis"/>
                                             <constraint firstAttribute="height" constant="32" id="Ryr-gD-PgQ"/>
@@ -2299,7 +2246,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </constraints>
                             </view>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F2D-uo-WG7">
-                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -2310,14 +2257,14 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </imageView>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GF5-9B-g9j" userLabel="Table View Search">
-                                <rect key="frame" x="0.0" y="184" width="320" height="246"/>
+                                <rect key="frame" x="0.0" y="192" width="414" height="494"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="searchEquipKeywordCell" id="aeo-3N-w7K">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aeo-3N-w7K" id="woe-Gh-UhJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -2328,27 +2275,27 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </tableView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="137" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-WH-ZJJ" userLabel="Table View TechMate">
-                                <rect key="frame" x="0.0" y="184" width="320" height="246"/>
+                                <rect key="frame" x="0.0" y="192" width="414" height="494"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatEquipmentCell" rowHeight="132" id="NG8-wa-JDV" customClass="MatEquipmentCell" customModule="IIF" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="132"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="132"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NG8-wa-JDV" id="bLW-nS-cPJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GpE-XO-34E" userLabel="Container">
-                                                    <rect key="frame" x="8" y="4" width="304" height="124"/>
+                                                    <rect key="frame" x="8" y="4" width="398" height="124"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y57-LT-QeP">
-                                                            <rect key="frame" x="8" y="8" width="288" height="17"/>
+                                                            <rect key="frame" x="8" y="8" width="382" height="17"/>
                                                             <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhZ-5u-KTz">
-                                                            <rect key="frame" x="8" y="37" width="27.5" height="21"/>
+                                                            <rect key="frame" x="8" y="37" width="27.666666666666664" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="0eU-wU-RZs"/>
                                                             </constraints>
@@ -2357,7 +2304,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCU-At-h03">
-                                                            <rect key="frame" x="40.5" y="37" width="0.0" height="21"/>
+                                                            <rect key="frame" x="40.666666666666664" y="37" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="xB5-oP-QRt"/>
                                                             </constraints>
@@ -2365,7 +2312,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M53-Xx-UcV">
-                                                            <rect key="frame" x="8" y="58" width="37.5" height="21"/>
+                                                            <rect key="frame" x="8" y="58" width="37.666666666666664" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="TT1-6b-fpn"/>
                                                             </constraints>
@@ -2374,7 +2321,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93e-yc-HQR">
-                                                            <rect key="frame" x="45.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="45.666666666666664" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="mo1-t8-PPH"/>
                                                             </constraints>
@@ -2382,7 +2329,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Region:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lE9-KX-Yvk">
-                                                            <rect key="frame" x="60.5" y="58" width="45" height="21"/>
+                                                            <rect key="frame" x="60.666666666666671" y="58" width="45" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="Nsv-HA-YpW"/>
                                                                 <constraint firstAttribute="width" constant="45" id="a5Y-th-a0Y"/>
@@ -2392,7 +2339,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVm-2Z-0n0">
-                                                            <rect key="frame" x="110.5" y="58" width="0.0" height="21"/>
+                                                            <rect key="frame" x="110.66666666666667" y="58" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="KDp-AZ-IEk"/>
                                                             </constraints>
@@ -2400,7 +2347,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyn-BA-JOj">
-                                                            <rect key="frame" x="8" y="79" width="33.5" height="21"/>
+                                                            <rect key="frame" x="8" y="79" width="33.666666666666664" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="55m-xa-3Sw"/>
                                                                 <constraint firstAttribute="width" constant="33.5" id="cme-OO-dXx"/>
@@ -2410,7 +2357,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUY-hv-lMA">
-                                                            <rect key="frame" x="46.5" y="79" width="0.0" height="21"/>
+                                                            <rect key="frame" x="46.666666666666664" y="79" width="0.0" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="95T-f1-zFW"/>
                                                             </constraints>
@@ -2418,7 +2365,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDi-Y8-odj" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="161" y="89" width="65" height="30"/>
+                                                            <rect key="frame" x="255" y="89" width="65" height="30"/>
                                                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="7FW-NY-C62"/>
@@ -2435,7 +2382,7 @@ OF INDIAN FOUNDRYMEN</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSU-uZ-r8t" customClass="FancyButton" customModule="IIF" customModuleProvider="target">
-                                                            <rect key="frame" x="231" y="89" width="65" height="30"/>
+                                                            <rect key="frame" x="325" y="89" width="65" height="30"/>
                                                             <color key="backgroundColor" red="0.96078431369999995" green="0.57647058819999997" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="65" id="7wm-b5-VFy"/>
@@ -2515,7 +2462,7 @@ OF INDIAN FOUNDRYMEN</string>
                                             <constraints>
                                                 <constraint firstItem="GpE-XO-34E" firstAttribute="top" secondItem="bLW-nS-cPJ" secondAttribute="top" constant="4" id="MWl-j7-2Da"/>
                                                 <constraint firstItem="GpE-XO-34E" firstAttribute="leading" secondItem="bLW-nS-cPJ" secondAttribute="leading" constant="8" id="aGW-M9-UOY"/>
-                                                <constraint firstAttribute="trailing" secondItem="GpE-XO-34E" secondAttribute="trailing" constant="8" id="xAt-BQ-7Io"/>
+                                                <constraint firstAttribute="trailing" secondItem="GpE-XO-34E" secondAttribute="trailing" constant="8" id="vPF-tD-NYd"/>
                                                 <constraint firstAttribute="bottom" secondItem="GpE-XO-34E" secondAttribute="bottom" constant="4" id="xyW-HF-hPe"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -2538,7 +2485,7 @@ OF INDIAN FOUNDRYMEN</string>
                                 </connections>
                             </tableView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Record Found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B4-3S-DAd">
-                                <rect key="frame" x="16" y="229.5" width="288" height="21"/>
+                                <rect key="frame" x="16" y="357.66666666666669" width="382" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ymD-rY-SUr"/>
                                 </constraints>
@@ -2604,17 +2551,17 @@ OF INDIAN FOUNDRYMEN</string>
                         <viewControllerLayoutGuide type="bottom" id="yuy-yM-oW4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iWQ-Gw-U5e">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmX-dB-5lM">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcV-x3-FdR" userLabel="PopUP">
-                                <rect key="frame" x="10" y="20" width="300" height="440"/>
+                                <rect key="frame" x="10" y="20" width="394" height="696"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1H-no-KIu">
-                                        <rect key="frame" x="10" y="15" width="280" height="21"/>
+                                        <rect key="frame" x="10" y="15" width="374" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="EiL-zI-dRA"/>
                                         </constraints>
@@ -2623,7 +2570,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search Keyword" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q5U-tV-x3d">
-                                        <rect key="frame" x="12" y="44" width="276" height="30"/>
+                                        <rect key="frame" x="12" y="44" width="370" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Teo-ay-2Or"/>
                                         </constraints>
@@ -2635,14 +2582,14 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </textField>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iXK-cn-DGq" userLabel="Table View Search">
-                                        <rect key="frame" x="0.0" y="82" width="300" height="300"/>
+                                        <rect key="frame" x="0.0" y="82" width="394" height="556"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="searchEquipKeywordCell" id="bxw-I8-Er6">
-                                                <rect key="frame" x="0.0" y="28" width="300" height="44"/>
+                                                <rect key="frame" x="0.0" y="28" width="394" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bxw-I8-Er6" id="gCc-FM-E6O">
-                                                    <rect key="frame" x="0.0" y="0.0" width="267" height="43.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="361" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
@@ -2653,7 +2600,7 @@ OF INDIAN FOUNDRYMEN</string>
                                         </connections>
                                     </tableView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6b-KW-ARy">
-                                        <rect key="frame" x="83" y="392" width="135" height="40"/>
+                                        <rect key="frame" x="130" y="648" width="135" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="135" id="Ics-lW-jIV"/>
