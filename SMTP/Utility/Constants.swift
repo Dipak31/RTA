@@ -19,7 +19,6 @@ struct ScreenSize
 public struct StoryBoard {
     public static let MAIN:String = "Main";
     public static let COMMON:String = "Common";
-
 }
 public struct StoryBoardID {
    
@@ -37,13 +36,12 @@ public struct Constants {
         0   : ProductIdentifier.allStroke.rawValue,
         146 : ProductIdentifier.serve.rawValue,
         145 : ProductIdentifier.forehand.rawValue,
-        143 : ProductIdentifier.backhand2.rawValue,
+        143 : ProductIdentifier.doubleHandedBackhand.rawValue,
         142 : ProductIdentifier.slice.rawValue,
         141 : ProductIdentifier.returnForehand.rawValue,
-        139 : ProductIdentifier.returnBackhand2.rawValue,
-        137 : ProductIdentifier.volleyBackhand.rawValue,
-        211 : ProductIdentifier.volleyBackhand.rawValue
-
+        139 : ProductIdentifier.doubleHandedBackhandReturn.rawValue,
+        137 : ProductIdentifier.backhandvolley.rawValue,
+        211 : ProductIdentifier.footworkAndPointPlay.rawValue
     ]
 
 }

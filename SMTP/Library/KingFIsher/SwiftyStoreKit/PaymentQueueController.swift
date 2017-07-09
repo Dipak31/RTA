@@ -113,6 +113,8 @@ class PaymentQueueController: NSObject, SKPaymentTransactionObserver {
             //print("Object is not a SKPaymentTransaction: \(transaction)")
             return
         }
+        //Dipak
+        SKPaymentQueue.default().finishTransaction(transaction as! SKPaymentTransaction);
         paymentQueue.finishTransaction(skTransaction)
     }
 

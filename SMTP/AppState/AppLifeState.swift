@@ -18,6 +18,7 @@ open class AppLifeState: NSObject {
     open static let KEY_ITUNES_SHARED_GENERATED_KEY:String="852c1c92dbb74ffa9f2d93d62fb4c124";
     open static let KEY_REFRESH_RECEIPT:String="isReceiptRefreshed";
     open static let KEY_LASTSYNC_DATE:String="lastSyncDate";
+    open static let KEY_ABY_STROKE_PURCHASED:String="isAnyStrokePurchased";
 
 
     open static func getTutorial() -> Bool? {
@@ -147,13 +148,22 @@ open class AppLifeState: NSObject {
         
         for (strokeId,name) in Constants.productIdToIdentifier{
             if isProductPurchased(strokeId: strokeId){
+                setStrokePurchased(true);
                 return true;
             }
         }
+        setStrokePurchased(false);
         return false;
     }
     
-    
+    open static func isStrokePurchased() -> Bool? {
+        return (UserDefaults.standard.bool(forKey: KEY_ABY_STROKE_PURCHASED))
+    }
+    open static func setStrokePurchased(_ seededState:Bool) {
+        UserDefaults.standard.set(seededState,forKey:KEY_ABY_STROKE_PURCHASED);
+        UserDefaults.standard.synchronize()
+    }
+
     class func refreshAndStoreLocallyReceipt(completationHandler: ((_ isSuccess: Bool)->())?){
         
         let appleValidator = AppleReceiptValidator(service: .sandbox)
@@ -177,22 +187,24 @@ open class AppLifeState: NSObject {
     }
     
    class func refreshReceipt() {
+    
+    if AppLifeState.isStrokePurchased()!{
+        print("Refresh receipt");
+
         SwiftyStoreKit.refreshReceipt { result in
-//            switch result {
-//            case .success(let receiptData):
-//                print("Rsponse: \(receiptData.base64EncodedString)")
-//               
-//            case .error(let error):
-//                print("Error: \(error)")
-//            }
+            
             UserDefaults.standard.set(true,forKey:KEY_REFRESH_RECEIPT);
             UserDefaults.standard.synchronize()
-
+            
             
             AppLifeState.refreshAndStoreLocallyReceipt(completationHandler: { isSuccess in
                 //print("Success Block");
             });
         }
+    }else{
+        print("can not refresh receipt");
+    }
+    
     }
 
  }

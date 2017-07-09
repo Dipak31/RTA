@@ -192,7 +192,7 @@ extension SwiftyStoreKit {
     
     
     public class func finishTransaction(_ transaction: PaymentTransaction) {
-        
+       
         sharedInstance.finishTransaction(transaction)
     }
 

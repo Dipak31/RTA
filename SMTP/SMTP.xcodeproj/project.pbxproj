@@ -19,7 +19,7 @@
 		9E256B7F1E44FD2800EB3D10 /* ViewFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E256B7E1E44FD2800EB3D10 /* ViewFilterController.swift */; };
 		9E256B811E45150800EB3D10 /* SocialSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E256B801E45150800EB3D10 /* SocialSharing.swift */; };
 		9E256B831E45159A00EB3D10 /* AppLifeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E256B821E45159A00EB3D10 /* AppLifeState.swift */; };
-		9E3717DC1F0FFE8B00E545B7 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3717DB1F0FFE8B00E545B7 /* DisclaimerViewController.swift */; };
+		9E2744E71F0EA15C00EFCA76 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2744E61F0EA15C00EFCA76 /* DisclaimerViewController.swift */; };
 		9E39ED591E4A22CC005910C9 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39ED431E4A22CC005910C9 /* AnimatedImageView.swift */; };
 		9E39ED5A1E4A22CC005910C9 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39ED441E4A22CC005910C9 /* Box.swift */; };
 		9E39ED5B1E4A22CC005910C9 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39ED451E4A22CC005910C9 /* CacheSerializer.swift */; };
@@ -115,7 +115,7 @@
 		9E256B7E1E44FD2800EB3D10 /* ViewFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFilterController.swift; sourceTree = "<group>"; };
 		9E256B801E45150800EB3D10 /* SocialSharing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialSharing.swift; sourceTree = "<group>"; };
 		9E256B821E45159A00EB3D10 /* AppLifeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLifeState.swift; sourceTree = "<group>"; };
-		9E3717DB1F0FFE8B00E545B7 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		9E2744E61F0EA15C00EFCA76 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 		9E39ED431E4A22CC005910C9 /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
 		9E39ED441E4A22CC005910C9 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		9E39ED451E4A22CC005910C9 /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
@@ -275,8 +275,8 @@
 				9E5932671E4122F80073EBF3 /* HomeViewController.swift */,
 				9E256B781E44FCDF00EB3D10 /* GenderFilterController.swift */,
 				9E256B7A1E44FD0200EB3D10 /* StrokeFIlterController.swift */,
-				9E3717DB1F0FFE8B00E545B7 /* DisclaimerViewController.swift */,
 				9E256B7C1E44FD1400EB3D10 /* PlayerFilterController.swift */,
+				9E2744E61F0EA15C00EFCA76 /* DisclaimerViewController.swift */,
 				9E256B7E1E44FD2800EB3D10 /* ViewFilterController.swift */,
 				9ED1C7311E47325800A68B38 /* PurchaseController.swift */,
 			);
@@ -554,7 +554,7 @@
 				9E06386D1E4C627400419020 /* VideoFilter.swift in Sources */,
 				9E39ED6C1E4A22CC005910C9 /* ThreadHelper.swift in Sources */,
 				9E845F391E40ECAE00D26B98 /* SVProgressAnimatedView.m in Sources */,
-				9E3717DC1F0FFE8B00E545B7 /* DisclaimerViewController.swift in Sources */,
+				9E2744E71F0EA15C00EFCA76 /* DisclaimerViewController.swift in Sources */,
 				9E39ED621E4A22CC005910C9 /* ImageTransition.swift in Sources */,
 				9EF302A71E629B4D00AA591E /* SKProduct+LocalizedPrice.swift in Sources */,
 				9E256B811E45150800EB3D10 /* SocialSharing.swift in Sources */,
@@ -746,8 +746,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ash Misquith (2G3WTG868G)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ash Misquith (2G3WTG868G)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
 				DEVELOPMENT_TEAM = 2G3WTG868G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -758,8 +758,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.tennispro.smtp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e24e9f61-7590-4875-a895-470f7b906444";
-				PROVISIONING_PROFILE_SPECIFIER = dist_smtp;
+				PROVISIONING_PROFILE = "b52b8321-5d58-4125-9c3f-fa5f62d966de";
+				PROVISIONING_PROFILE_SPECIFIER = dev_smtp;
 				SWIFT_OBJC_BRIDGING_HEADER = SMTP/SMTP_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -770,8 +770,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ash Misquith (2G3WTG868G)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ash Misquith (2G3WTG868G)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
 				DEVELOPMENT_TEAM = 2G3WTG868G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -782,8 +782,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.tennispro.smtp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e24e9f61-7590-4875-a895-470f7b906444";
-				PROVISIONING_PROFILE_SPECIFIER = dist_smtp;
+				PROVISIONING_PROFILE = "b52b8321-5d58-4125-9c3f-fa5f62d966de";
+				PROVISIONING_PROFILE_SPECIFIER = dev_smtp;
 				SWIFT_OBJC_BRIDGING_HEADER = SMTP/SMTP_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;

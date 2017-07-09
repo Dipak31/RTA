@@ -298,12 +298,12 @@ class HomeViewController: UIViewController,URLSessionDelegate,SyncHelperDelegate
                 downloadVideoImg.isHidden = false;
                 lblDownloadMsg.isHidden = false;
                 lblMsg.isHidden = true;
-                lblDownloadMsg.text = "Downloaded videos mode is on but you have not downloaded any videos.Please download some videos.";
+                lblDownloadMsg.text = "Downloaded videos mode is on but you have not downloaded any videos.\nPlease download some videos.";
             }else if !isRechable {
                 downloadVideoImg.isHidden = false;
                 lblDownloadMsg.isHidden = false;
                 lblMsg.isHidden = true;
-                lblDownloadMsg.text = "You are offline but you have not downloaded any videos.Please download some videos the next time you have a wifi connection";
+                lblDownloadMsg.text = "You are offline but you have not downloaded any videos.\nPlease download some videos the next time you have a wifi connection";
             }
             
 //            if isRechable && btnDownload.isSelected{
@@ -566,7 +566,7 @@ class HomeViewController: UIViewController,URLSessionDelegate,SyncHelperDelegate
     func isVideoDownloading() -> Bool{
         
         if activeDownloads.count > 0{
-            AlertUtil.showCustomAlertWithMessage("Please wait until you download finishes");
+            AlertUtil.showCustomAlertWithMessage("Please wait until your download finishes");
             return true;
         }
         return false;

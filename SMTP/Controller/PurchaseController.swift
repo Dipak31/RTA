@@ -20,7 +20,7 @@ enum ProductIdentifier : String {
     case returnForehand = "SMTP_ForehandReturn"
     case serve = "SMTP_Serve"
     case slice = "SMTP_Slice"
-
+  
 }
 
 class PurchaseController: UIViewController {
@@ -33,14 +33,14 @@ class PurchaseController: UIViewController {
     
     fileprivate  let productList: Set<String> = [
         ProductIdentifier.allStroke.rawValue,
-        ProductIdentifier.serve.rawValue,
+        ProductIdentifier.backhandvolley.rawValue,
+        ProductIdentifier.doubleHandedBackhand.rawValue,
+        ProductIdentifier.doubleHandedBackhandReturn.rawValue,
+        ProductIdentifier.footworkAndPointPlay.rawValue,
         ProductIdentifier.forehand.rawValue,
-        ProductIdentifier.backhand2.rawValue,
-        ProductIdentifier.slice.rawValue,
         ProductIdentifier.returnForehand.rawValue,
-        ProductIdentifier.returnBackhand2.rawValue,
-        ProductIdentifier.volleyBackhand.rawValue,
-        ProductIdentifier.footworkAndPointPlay.rawValue
+        ProductIdentifier.serve.rawValue,
+        ProductIdentifier.slice.rawValue
     ]
     public var disMissHandler: ((_ isStrokePurchased:Bool) -> ())?
     var isProcessing : Bool = false;

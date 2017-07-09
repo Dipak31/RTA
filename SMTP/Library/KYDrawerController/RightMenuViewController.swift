@@ -12,14 +12,14 @@ public enum MenuItem : String {
     case Share = "Share"
     case Purchase = "Purchase Strokes"
     case Restore = "Restore"
-    case desclaimer = "Disclaimer"
+    case Desclaimer = "Disclaimer"
 }
 
 class RightMenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
 
     @IBOutlet weak var tableView: UITableView!
        
-    let menuList : [MenuItem] = [.Share,.Purchase,.Restore];
+    let menuList : [MenuItem] = [.Share,.Purchase,.Restore,.Desclaimer];
     let image : [String] = ["share","purchase","restore","info"];
     var dashBoardViewController: UIViewController!
     
