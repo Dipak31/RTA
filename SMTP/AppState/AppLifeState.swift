@@ -188,21 +188,15 @@ open class AppLifeState: NSObject {
     
    class func refreshReceipt() {
     
-    if AppLifeState.isStrokePurchased()!{
-        print("Refresh receipt");
-
-        SwiftyStoreKit.refreshReceipt { result in
-            
-            UserDefaults.standard.set(true,forKey:KEY_REFRESH_RECEIPT);
-            UserDefaults.standard.synchronize()
-            
-            
-            AppLifeState.refreshAndStoreLocallyReceipt(completationHandler: { isSuccess in
-                //print("Success Block");
-            });
-        }
-    }else{
-        print("can not refresh receipt");
+    SwiftyStoreKit.refreshReceipt { result in
+        
+        UserDefaults.standard.set(true,forKey:KEY_REFRESH_RECEIPT);
+        UserDefaults.standard.synchronize()
+        
+        
+        AppLifeState.refreshAndStoreLocallyReceipt(completationHandler: { isSuccess in
+            //print("Success Block");
+        });
     }
     
     }

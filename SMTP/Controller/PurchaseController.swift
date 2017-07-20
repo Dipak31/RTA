@@ -210,7 +210,7 @@ class PurchaseController: UIViewController {
     func verifyPurchase(_ productId: String) {
         
         //SVProgressHUD.show();
-        let appleValidator = AppleReceiptValidator(service: .production )
+        let appleValidator = AppleReceiptValidator(service: .sandbox )
         SwiftyStoreKit.verifyReceipt(using: appleValidator, password:AppLifeState.KEY_ITUNES_SHARED_GENERATED_KEY) { result in
             //SVProgressHUD.dismiss();
             

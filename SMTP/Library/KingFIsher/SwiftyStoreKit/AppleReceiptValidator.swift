@@ -28,11 +28,11 @@ import Foundation
 public struct AppleReceiptValidator: ReceiptValidator {
 
 	public enum VerifyReceiptURLType: String {
-		case production = "https://buy.itunes.apple.com/verifyReceipt"
+		//case production = "https://buy.itunes.apple.com/verifyReceipt"
 		case sandbox = "https://sandbox.itunes.apple.com/verifyReceipt"
 	}
 
-	public init(service: VerifyReceiptURLType = .production) {
+	public init(service: VerifyReceiptURLType = .sandbox) {
 		self.service = service
 	}
 

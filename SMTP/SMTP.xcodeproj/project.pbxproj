@@ -749,6 +749,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
 				DEVELOPMENT_TEAM = 2G3WTG868G;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
@@ -758,7 +759,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.tennispro.smtp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b52b8321-5d58-4125-9c3f-fa5f62d966de";
+				PROVISIONING_PROFILE = "0ee7985c-3b12-4bf8-9983-3fc07731a16c";
 				PROVISIONING_PROFILE_SPECIFIER = dev_smtp;
 				SWIFT_OBJC_BRIDGING_HEADER = SMTP/SMTP_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
@@ -773,6 +774,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ash Misquith (JSQ64UNU44)";
 				DEVELOPMENT_TEAM = 2G3WTG868G;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
@@ -782,7 +784,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.tennispro.smtp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b52b8321-5d58-4125-9c3f-fa5f62d966de";
+				PROVISIONING_PROFILE = "0ee7985c-3b12-4bf8-9983-3fc07731a16c";
 				PROVISIONING_PROFILE_SPECIFIER = dev_smtp;
 				SWIFT_OBJC_BRIDGING_HEADER = SMTP/SMTP_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
